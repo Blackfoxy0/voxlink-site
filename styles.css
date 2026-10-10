@@ -23,3 +23,5 @@ body{overflow-x:clip}
 .person-row>span{flex:1;min-width:140px}.person-row button{font-size:12px;padding:10px;min-height:40px}
 .account-card [hidden]{display:none!important}
 @media(max-width:700px){.account-grid{grid-template-columns:1fr}.account-card{padding:22px}.account-modes .button{font-size:13px}}
+
+.coffee-support{display:flex;align-items:center;gap:28px}.coffee-support img{max-width:42%;height:auto;border-radius:20px}.coffee-support p{color:var(--muted,#a7b0c3);line-height:1.6}@media(max-width:600px){.coffee-support{flex-direction:column;align-items:stretch}.coffee-support img{max-width:100%;width:300px;align-self:center}}
