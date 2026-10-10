@@ -32,12 +32,12 @@ jobs:
         shell: bash
         run: |
           curl --fail --location --retry 3 --proto '=https' --tlsv1.2 \
-            'https://github.com/Blackfoxy0/voxlink-site/releases/download/web-beta-0.5.2/voxlink-web-site.zip' \
+            'https://github.com/Blackfoxy0/voxlink-site/releases/download/v0.5.3/voxlink-web-site.zip' \
             --output "$RUNNER_TEMP/voxlink-web-site.zip"
-          echo 'c42823fa98d695b32b717d492c56486af71b58d1f7292baa54d297deca036de1  '"$RUNNER_TEMP/voxlink-web-site.zip" | sha256sum --check --strict
+          echo '31e8b439e375051e41186cc208177aa762ca376fa6019cf9553f02c41ee67114  '"$RUNNER_TEMP/voxlink-web-site.zip" | sha256sum --check --strict
           mkdir -p _site
           unzip -q "$RUNNER_TEMP/voxlink-web-site.zip" 'app/*' -d _site
-          cp index.html styles.css script.js account.js coffee.png voxlink-saturn.png _site/
+          cp index.html styles.css script.js releases.json coffee.png voxlink-saturn.png _site/
           touch _site/.nojekyll
           test -s _site/app/main.dart.js
       - name: Configure public Pages deployment
