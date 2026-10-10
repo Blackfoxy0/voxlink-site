@@ -134,7 +134,7 @@
       say('download-status','Preparando o download…');
       const filename=button.dataset.download;
       if(!['voxlink-android-arm64.apk','voxlink-windows-setup.exe'].includes(filename)) throw new Error('Arquivo inválido.');
-      const link=document.createElement('a'); link.href='https://github.com/Blackfoxy0/voxlink-site/releases/download/v0.4.0/'+filename; link.rel='noopener'; link.download=button.dataset.download; link.click();
+      const link=document.createElement('a'); link.href='https://github.com/Blackfoxy0/voxlink-site/releases/download/v0.5.1/'+filename; link.rel='noopener'; link.download=button.dataset.download; link.click();
       say('download-status','Download solicitado. Esta é uma versão beta.');
     } catch(error) {say('download-status',error.message);}
     finally {button.disabled=false;}
