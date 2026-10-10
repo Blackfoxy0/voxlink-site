@@ -128,17 +128,6 @@
     }));
   }
   $('refresh-friends').addEventListener('click',()=>loadFriends().catch(error=>say('people-status',error.message)));
-  document.querySelectorAll('[data-download]').forEach(button=>button.addEventListener('click',async()=>{
-    button.disabled=true;
-    try {
-      say('download-status','Preparando o download…');
-      const filename=button.dataset.download;
-      if(!['voxlink-android-arm64.apk','voxlink-windows-setup.exe'].includes(filename)) throw new Error('Arquivo inválido.');
-      const link=document.createElement('a'); link.href='https://github.com/Blackfoxy0/voxlink-site/releases/download/v0.5.1/'+filename; link.rel='noopener'; link.download=button.dataset.download; link.click();
-      say('download-status','Download solicitado. Esta é uma versão beta.');
-    } catch(error) {say('download-status',error.message);}
-    finally {button.disabled=false;}
-  }));
   // Auth confirmation returns here. The hash is removed before further rendering.
   const hash=new URLSearchParams(location.hash.slice(1));
   if(hash.has('access_token')) {

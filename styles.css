@@ -25,3 +25,18 @@ body{overflow-x:clip}
 @media(max-width:700px){.account-grid{grid-template-columns:1fr}.account-card{padding:22px}.account-modes .button{font-size:13px}}
 
 .coffee-support{display:flex;align-items:center;gap:28px}.coffee-support img{max-width:42%;height:auto;border-radius:20px}.coffee-support p{color:var(--muted,#a7b0c3);line-height:1.6}@media(max-width:600px){.coffee-support{flex-direction:column;align-items:stretch}.coffee-support img{max-width:100%;width:300px;align-self:center}}
+
+/* Softer orbital surfaces; contrast and motion preferences stay explicit. */
+:root{--text:#f5f0ea;--muted:#b2b9cc;--radius:26px}
+body{background:radial-gradient(ellipse at 12% 4%,#3b305022,transparent 38%),#070a0f}
+.button{border-radius:17px;min-height:48px}.platform-card,.experience-panel,.language-card{border-radius:27px}
+.platform-card{background:linear-gradient(150deg,#182034,#111827);border-color:#46506c80}
+.platform-card:hover{border-color:#a6b5ee}.platform-icon{color:#b6c9ff}
+.hero-description,.section-heading>p{color:#b5bed0}
+.friendly-note{display:flex;align-items:center;gap:12px;margin-top:24px;color:#c1cadb;line-height:1.6;font-size:12px}
+.friendly-note img{border-radius:20px;transform:rotate(-5deg);animation:coffee-bob 5s ease-in-out infinite}
+.friendly-note strong{color:#bcefdc}.account-card{border-color:#3b455f80}
+.coffee-support{background:radial-gradient(ellipse at 12% 50%,#66518c25,transparent 65%),#111827}
+.coffee-support .eyebrow{color:#bdeed9}.download-card .secondary{width:auto}
+@keyframes coffee-bob{50%{transform:translateY(-4px) rotate(3deg)}}
+@media(prefers-reduced-motion:reduce){.friendly-note img{animation:none}}
