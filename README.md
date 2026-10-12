@@ -4,7 +4,7 @@ Site público de apresentação e downloads do VoxLink, criado por **Isaque Prus
 
 - [Apresentação e downloads para Android/Windows](https://blackfoxy0.github.io/voxlink-site/)
 - [Aplicativo web](https://blackfoxy0.github.io/voxlink-site/app/)
-- [VoxLink 0.6.2 — instaladores e SHA256SUMS](https://github.com/Blackfoxy0/voxlink-site/releases/tag/v0.6.2)
+- [VoxLink 0.6.3 — instaladores e SHA256SUMS](https://github.com/Blackfoxy0/voxlink-site/releases/tag/v0.6.3)
 
 A página de apresentação não exige cadastro. Cadastro e login ficam nos aplicativos. Confirmação de e-mail obrigatória; configuração do envio público de e-mails ainda pendente.
 
