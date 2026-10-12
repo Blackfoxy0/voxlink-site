@@ -1,19 +1,18 @@
-# VoxLink 0.6.1 — Conversas e comunidades mais simples
+# VoxLink 0.6.2
 
-Conversas com barra compacta, áudio quando o campo está vazio, Enter para enviar e Shift+Enter para quebrar linha no PC. Prévias de imagem e áudio sem nomes de arquivos extensos; indicador de digitação e convites de chamada privada com aceitar/recusar.
+Esta atualização facilita a navegação entre canais, dá mais espaço aos chats e organiza os controles da chamada.
 
-- Perfil no rodapé da lateral; abertura com Saturno animado; filtros secundários recolhidos.
-- Fontes Nunito, Space Grotesk e JetBrains Mono incluídas com licenças. Papel de parede Buraco negro e fundo individual de conversa. Paleta do fundo opcional, desligada por padrão.
-- Aparência privada sincronizada entre aparelhos da mesma conta. Conflitos entre alterações exigem escolha explícita; trocar de conta não aplica a resposta anterior.
-- Gestão dentro da comunidade: nome, descrição, foto, capa, entrada livre ou por aprovação, pedidos, transferência e exclusão com confirmação. Pedidos pendentes não abrem chat privado.
-- Mixer compacto com volume separado de voz e transmissão. Câmera do mesmo dispositivo sobreposta à tela; escolha do canto é local para quem assiste. Seleção individual de até duas telas mantém as demais transmissões disponíveis.
-- Salas ativas renovam a validade sem encerramento artificial após uma hora. Fechar uma presença não remove outra presença ativa da mesma conta.
-- Barra de atualização apenas para versões posteriores; dispensar mantém o layout, e a versão já instalada não mostra aviso antigo.
+- Canais da comunidade na lateral, comunidades favoritas na barra de ícones e indicação da sala atual.
+- Controles de microfone, ouvir/silenciar e transmissão com ícones e dicas; menus por botão direito ou toque prolongado.
+- Sons próprios e distintos para entrada e saída de chamadas, com opção de desativar.
+- Volume de voz e transmissão separado, até 200%. O navegador usa amplificação com limitador; resultados dependem do dispositivo e do áudio de origem.
+- Conversas ocupam a lateral; contatos têm cartões separados e podem mostrar o banner público escolhido.
+- GIFs e figurinhas compactos; fotos continuam maiores e abrem com zoom.
+- “Meus GIFs”: coleção privada da conta, sincronizada entre PC e celular, com seleção de vários GIFs locais. Até 20 arquivos de 5 MB cada; preserva a animação. Não acessa automaticamente a conta ou os arquivos privados do WhatsApp.
+- Banners públicos em estilos prontos e molduras opcionais; status disponível, ausente, indisponível ou offline.
+- Mais contraste nos painéis, correção de recortes nos filtros e acesso mais visível a Reuniões.
+- Cursores opcionais Lua e Planeta dentro do app; no Android, aparecem com mouse conectado.
 
-Validação: análise Flutter sem problemas e 146 testes aprovados (145 na rodada completa e o teste ajustado da barra aprovado na repetição). Testes SQL transacionais passaram para acesso, aprovação, transferência, imagens privadas e aparência com controle de revisão. Nenhum dado real foi excluído ou transferido nos testes.
+Validação: 156 testes Flutter aprovados; permissões de perfil e coleção testadas no Supabase; GIF de referência com 78 quadros aceito sem conversão. Chamada real com amplificação em todos os dispositivos ainda precisa ser avaliada pelo usuário.
 
-Limitações: confirmação de e-mail obrigatória e SMTP público ainda pendente; Windows sem assinatura de editor e APK com assinatura de teste. Tradução hospedada, áudio interno Android, QR de login, NFC entre telefones, música, pets compartilhados, moedas e benefícios pagos automáticos ainda estão em desenvolvimento. Histórico dos chats não possui criptografia ponta a ponta. Evite reproduzir a mesma call simultaneamente no navegador e programa ao compartilhar a tela inteira: isso pode recapturar a saída do navegador.
-
-Não houve teste físico de dez horas de chamada. Builds, instalação e publicação serão registrados separadamente. Remover o seletor de qualidade anterior ao estúdio e escolher automaticamente o melhor microfone são pedidos para atualização posterior.
-
-Idealização e direção: Isaque Prussak Silveira.
+Pendentes: tocador/worker de música, importação de banners próprios animados, atribuição das contas ADM, pets compartilhados e moedas. Tradução por IA e cadastro público dependem das configurações já registradas no projeto.
