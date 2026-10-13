@@ -56,4 +56,3 @@ window.onYouTubeIframeAPIReady=function(){
 window.addEventListener('pagehide',()=>{clearInterval(timer);if(ready)player.destroy();});
 const script=document.createElement('script');script.src='https://www.youtube.com/iframe_api';script.onerror=()=>emit('error');document.head.appendChild(script);
 </script></body></html>
-

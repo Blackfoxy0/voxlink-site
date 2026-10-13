@@ -1,17 +1,16 @@
-# VoxLink 0.6.3
+# VoxLink 0.6.4 — beta de personalização, mídia e fluidez
 
-Navegação mais previsível e acabamento visual consistente no PC e no Android.
+Build 21. Windows, Android ARM64 e Web.
 
-- Início volta à visão geral mesmo durante uma call. Voltar de uma comunidade retorna ao catálogo, preservando a chamada.
-- Corrigido o bloco branco ao passar o mouse no X do aviso de atualização: as dicas dos controles agora têm a camada de exibição correta.
-- Ícones arredondados, controles, menus, campos, painéis e cartões acompanham o arredondamento escolhido na personalização.
-- Melhor contraste de texto secundário, filtros com limites visíveis e contato selecionado destacado.
-- Transições suaves nas abas e conversas, painéis recolhíveis e navegação; respeitam Reduzir animações e a preferência de acessibilidade do dispositivo. Não mantêm cópias da call ou do rascunho durante a troca.
-- GIF salvo usa animação original completa e envio direto, sem extrair os primeiros 12 quadros. O criador com fotos permanece disponível separadamente.
-- Miniaturas de GIFs usam decodificação dimensionada; selecionar um GIF já carregado da coleção reutiliza o download.
+- GIF/WebP estáticos e animados originais, seletor Android sem filtro MIME incorreto; favoritos locais por conta, inclusive figurinhas recebidas. Removido o limite de 120 quadros ao favoritar. Até 5 MB por arquivo e 2 MP, sem quota de quantidade local; coleção ainda não pareia entre dispositivos.
+- Mensagens privadas e de comunidades com eco local, estado de envio/falha e reenvio sem duplicar. Cache e pré-carregamento limitados para avatares, mídia e históricos. Recebimento depende da rede e ainda usa consultas periódicas.
+- Até seis fotos por publicação. Troca de calls protegida contra credenciais atrasadas; presença de membros autorizados sem exigir amizade. Navegação preserva a call e o player.
+- Área própria de Personalização: 33 molduras, 12 banners, quatro adornos e dez estilos de fonte. Fonte só no nome ou na plataforma; prévia sem aplicar. Artes separadas dos painéis de referência; PNGs estáticos com efeitos leves procedurais, não GIFs extraídos de JPEGs.
+- Animações decorativas com limite de 30 notificações de pintura/s e suspensão em segundo plano/telas ocultas; opção de reduzir movimento. Avisos com volume próprio e proteção contra rajadas. Android usa SoundPool para avisos sem solicitar foco exclusivo nem alterar a rota global de áudio.
+- Instalador com identidade VoxLink, atalhos normais e abertura maximizada ao concluir.
+- Música em beta: fila única, controles compartilhados, biblioteca de áudio própria e player oficial visível de links YouTube. Volume separado da voz/tela. Busca por nome requer YOUTUBE_API_KEY no servidor, ainda ausente.
+- Tradução de texto/voz PT↔EN com opções de autorização, serviço online e faixas separadas. Transporte validado com áudio sintético; ainda falta chamada humana em aparelhos reais. Serviços dependem deste PC ligado e da internet.
 
-Mantém os recursos da 0.6.2: canais e favoritos laterais, sons de entrada/saída, controles por ícones, volume separado até 200%, coleção privada de GIFs sincronizada, banners e molduras opcionais, presença, Reuniões e cursores Lua/Planeta.
+Validação: 213 testes Flutter passaram; análise sem problemas. Verificação dos pacotes e publicação registradas separadamente após compilação.
 
-Música ainda não está incluída: próxima prioridade é integrar reprodução, fila e worker para fontes próprias ou autorizadas. Contas ADM, banners próprios animados, pets compartilhados e moedas permanecem pendentes. Tradução por IA, SMTP público, assinatura de produção e captura de áudio interno Android seguem os limites registrados.
-
-Validação: análise Flutter sem problemas e 163 testes aprovados, incluindo hover do X, navegação com call ativa, redução de movimento e GIF completo. Validação física de chamadas entre aparelhos continua necessária; estes testes não substituem o teste real de transmissão.
+Continuam em desenvolvimento: rádio/recomendações automáticas, ouvir só eu, transmitir vídeo musical, bloqueio de anúncios (player oficial YouTube pode exibi-los), pareamento de figurinhas PC/Android, artes da última prancha e otimização do tamanho dos arquivos. Nenhuma compra/moeda ativa. APK assinado para testes, Windows sem assinatura de publicador; instalação Android manual pelo usuário.
