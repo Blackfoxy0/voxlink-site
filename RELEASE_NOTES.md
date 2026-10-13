@@ -1,16 +1,18 @@
-# VoxLink 0.6.4 — beta de personalização, mídia e fluidez
+# VoxLink 0.6.5 — temas de banner e atualizações pelo app
 
-Build 21. Windows, Android ARM64 e Web.
+Nova beta para Windows, Android ARM64 e Web. Build 22; a versão 0.6.4 continua disponível.
 
-- GIF/WebP estáticos e animados originais, seletor Android sem filtro MIME incorreto; favoritos locais por conta, inclusive figurinhas recebidas. Removido o limite de 120 quadros ao favoritar. Até 5 MB por arquivo e 2 MP, sem quota de quantidade local; coleção ainda não pareia entre dispositivos.
-- Mensagens privadas e de comunidades com eco local, estado de envio/falha e reenvio sem duplicar. Cache e pré-carregamento limitados para avatares, mídia e históricos. Recebimento depende da rede e ainda usa consultas periódicas.
-- Até seis fotos por publicação. Troca de calls protegida contra credenciais atrasadas; presença de membros autorizados sem exigir amizade. Navegação preserva a call e o player.
-- Área própria de Personalização: 33 molduras, 12 banners, quatro adornos e dez estilos de fonte. Fonte só no nome ou na plataforma; prévia sem aplicar. Artes separadas dos painéis de referência; PNGs estáticos com efeitos leves procedurais, não GIFs extraídos de JPEGs.
-- Animações decorativas com limite de 30 notificações de pintura/s e suspensão em segundo plano/telas ocultas; opção de reduzir movimento. Avisos com volume próprio e proteção contra rajadas. Android usa SoundPool para avisos sem solicitar foco exclusivo nem alterar a rota global de áudio.
-- Instalador com identidade VoxLink, atalhos normais e abertura maximizada ao concluir.
-- Música em beta: fila única, controles compartilhados, biblioteca de áudio própria e player oficial visível de links YouTube. Volume separado da voz/tela. Busca por nome requer YOUTUBE_API_KEY no servidor, ainda ausente.
-- Tradução de texto/voz PT↔EN com opções de autorização, serviço online e faixas separadas. Transporte validado com áudio sintético; ainda falta chamada humana em aparelhos reais. Serviços dependem deste PC ligado e da internet.
+- Personalização ampliada: 39 molduras, 19 banners de arte, 16 opções de adorno e 16 estilos de fonte além do padrão. As peças são individuais; as fontes são arquivos reais com licenças. Algumas opções de adorno reutilizam aros existentes.
+- Opção **Usar tema do banner** com prévia: cores, fonte, moldura, fundo e superfícies acompanham a estética escolhida. Aplicação opcional, ajustes individuais e restauração da aparência anterior. Fonte só no nome ou na interface.
+- Efeitos diferentes por banner, incluindo estrelas, pétalas, bolhas, névoa, brasas e luzes. Pintura decorativa limitada, suspensão em segundo plano e opção de reduzir movimento. Posicionamento dos adornos ajustado à abertura da foto, incluindo orelhas de gato.
+- GIFs/WebP menores no chat: base de 112 pontos, limite pela largura da tela e controles para ajustar o tamanho ou acompanhar a fonte. Os arquivos originais e suas durações são preservados.
+- Atualização pelo aplicativo: download oficial com progresso, cancelamento, verificação de tamanho e SHA-256 e preparação da instalação. Windows encerra a call, abre o instalador e reabre o app; Android confere versão, pacote e assinatura e usa a autorização/confirmação do sistema. Textos em português, inglês e espanhol. **A primeira atualização da 0.6.4 deve ser feita pelos instaladores desta página.**
+- Importação de playlists oficiais PL/UU/OLAK preparada no servidor, com prévia e inserção de até 30 faixas na fila. Ainda depende de YOUTUBE_API_KEY, não configurada nesta entrega; não é suporte ao link de rádio RD enviado anteriormente.
 
-Validação: 213 testes Flutter passaram; análise sem problemas. Verificação dos pacotes e publicação registradas separadamente após compilação.
+Validação: 240 testes Flutter aprovados, análise sem problemas, builds release Windows/Android/Web, APK com assinatura válida e igual à anterior, hashes dos pacotes conferidos e 97 arquivos de artes/fontes/licenças comparados à fonte nas três plataformas. Windows 0.6.5 instalado e aberto; código instalado igual ao build. Fluxo do atualizador testado com lançamento simulado e downloads reais verificados. Ainda não houve upgrade físico Android de uma versão com atualizador para a seguinte nem teste de chamada humana em aparelhos reais.
 
-Continuam em desenvolvimento: rádio/recomendações automáticas, ouvir só eu, transmitir vídeo musical, bloqueio de anúncios (player oficial YouTube pode exibi-los), pareamento de figurinhas PC/Android, artes da última prancha e otimização do tamanho dos arquivos. Nenhuma compra/moeda ativa. APK assinado para testes, Windows sem assinatura de publicador; instalação Android manual pelo usuário.
+Continuam em desenvolvimento: editor de múltiplos adornos por mouse/toque, catálogo remoto sem nova versão, integração das últimas pranchas enviadas, redução do tamanho do pacote, player fixo no topo do chat, escolha imediata de faixa, rádio/recomendações automáticas, ouvir só eu, modo independente sem vídeo, Spotify e pareamento local de figurinhas. O player oficial do YouTube pode exibir anúncios; busca por nome/playlist depende da chave do servidor. Tradução PT↔EN e música de arquivos dependem dos serviços online deste PC ligado. As artes raster são estáticas com efeitos procedurais; não foram extraídos GIFs dos JPEGs.
+
+Android usa assinatura de teste e instalação manual com confirmação do sistema. Windows não possui assinatura digital de publicador. Nenhuma compra/moeda ativa. Esta beta publica os recursos validados acima; não encerra o restante do escopo.
+
+Site: https://blackfoxy0.github.io/voxlink-site/ — Android: voxlink-android-arm64.apk — Windows: voxlink-windows-setup.exe. Checksums em SHA256SUMS.txt.
