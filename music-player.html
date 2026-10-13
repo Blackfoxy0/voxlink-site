@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+ <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="referrer" content="strict-origin-when-cross-origin">
+ <title>Música · VoxLink</title>
+ <style>html,body{margin:0;width:100%;height:100%;background:#090d16;color:#f5f0ea;font:14px "Segoe UI",sans-serif}#player{width:100%;height:100%;min-width:200px;min-height:200px}#notice{padding:18px;line-height:1.6}iframe{border:0}</style>
+</head>
+<body><div id="player"></div><div id="notice" hidden></div>
+<script>
+'use strict';
+const params=new URLSearchParams(location.search);
+const bridge=params.get('bridge');
+const parentOrigin=params.get('parentOrigin');
+const allowedParents=new Set(['https://blackfoxy0.github.io','http://127.0.0.1:4173','http://127.0.0.1:3000']);
+let player,ready=false,snapshot=null,loaded=null,timer;
+function emit(type,extra={}){
+ if(!bridge||!/^[a-f0-9-]{36}$/.test(bridge))return;
+ const message={channel:bridge,type,generation:snapshot?.generation,...extra};
+ if(window.chrome?.webview)window.chrome.webview.postMessage(message);
+ else if(window.VoxMusic)window.VoxMusic.postMessage(JSON.stringify(message));
+ else if(window.parent!==window&&allowedParents.has(parentOrigin))window.parent.postMessage(message,parentOrigin);
+}
+function valid(value){
+ return value&&typeof value==='object'&&/^[a-f0-9-]{36}$/.test(value.generation)&&/^[A-Za-z0-9_-]{11}$/.test(value.sourceId)&&['playing','paused'].includes(value.playback)&&Number.isFinite(value.positionMs)&&value.positionMs>=0&&value.positionMs<=3600000&&Number.isFinite(value.volume)&&value.volume>=0&&value.volume<=100&&Number.isFinite(value.expires)&&value.expires>Date.now()&&value.expires<=Date.now()+15000;
+}
+window.voxMusicSync=function(value){
+ if(!valid(value)){snapshot=null;if(ready)player.pauseVideo();return;}
+ snapshot={...value,received:Date.now()};apply();
+};
+function apply(){
+ if(!ready||!snapshot)return;
+ if(Date.now()>snapshot.expires){player.pauseVideo();return;}
+ const time=Math.min(3600,(snapshot.positionMs+(snapshot.playback==='playing'?Date.now()-snapshot.received:0))/1000);
+ player.setVolume(snapshot.volume);
+ if(loaded!==snapshot.sourceId){
+  loaded=snapshot.sourceId;
+  if(snapshot.playback==='playing')player.loadVideoById({videoId:loaded,startSeconds:time});
+  else player.cueVideoById({videoId:loaded,startSeconds:time});
+ }else if(Math.abs(player.getCurrentTime()-time)>2.5){player.seekTo(time,true);}
+ if(snapshot.playback==='paused')player.pauseVideo();
+ else if(![1,3].includes(player.getPlayerState()))player.playVideo();
+}
+window.addEventListener('message',event=>{
+ if(event.source!==window.parent||!allowedParents.has(event.origin)||event.origin!==parentOrigin||event.data?.channel!==bridge)return;
+ window.voxMusicSync(event.data.snapshot);
+});
+window.onYouTubeIframeAPIReady=function(){
+ player=new YT.Player('player',{width:'100%',height:'100%',playerVars:{playsinline:1,origin:location.origin},events:{
+  onReady:()=>{ready=true;emit('ready');apply();timer=setInterval(()=>{if(snapshot&&Date.now()>snapshot.expires)player.pauseVideo();},1000);},
+  onStateChange:event=>{if(event.data===0&&snapshot?.playback==='playing')emit('ended',{sourceId:loaded});},
+  onAutoplayBlocked:()=>emit('blocked'),
+  onError:()=>{emit('error');const notice=document.getElementById('notice');notice.textContent='Este vídeo não está disponível para reprodução aqui. Escolha outra música.';notice.hidden=false;}
+ }});
+};
+window.addEventListener('pagehide',()=>{clearInterval(timer);if(ready)player.destroy();});
+const script=document.createElement('script');script.src='https://www.youtube.com/iframe_api';script.onerror=()=>emit('error');document.head.appendChild(script);
+</script></body></html>
+
