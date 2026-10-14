@@ -1,17 +1,20 @@
-# VoxLink 0.6.6 — composição de adornos e música na call
+# VoxLink 0.6.8 — correções de personalização, cores e GIFs
 
-Nova beta para Windows, Android ARM64 e Web. Build 23 (código Android 2023). As versões 0.6.4 e 0.6.5 continuam disponíveis.
+Beta parcial para Windows, Android ARM64 e Web. Build 25; código Android 2025. As versões 0.6.4, 0.6.5 e 0.6.6 permanecem disponíveis. Esta versão não conclui o escopo de conteúdo solicitado.
 
-- Na área Personalização, a aba **Composição** permite combinar os adornos disponíveis na foto, moldura ou banner. Arraste por mouse ou toque e ajuste tamanho, rotação e ordem das camadas. É possível duplicar, remover e mover o adorno atual. As mudanças ficam em prévia até clicar em Aplicar; Descartar restaura a composição salva.
-- Composições são gravadas na conta. Apenas o dono pode editar; uma edição antiga não sobrescreve uma mudança feita em outro aparelho. Clientes anteriores preservam as novas camadas ao alterar outros dados do perfil.
-- Player fixo no topo do conteúdo durante a call, inclusive nas comunidades. A mesma instância permanece ao navegar e redimensionar; fila e controles adicionais abrem por botão. Silenciar a música é individual e restaura o volume anterior, sem alterar o microfone ou a saída de voz.
-- Teclado ou janela muito baixa recolhem e pausam o vídeo apenas neste aparelho para liberar o chat. O player sincroniza ao voltar. Isso ainda não é um modo de áudio independente do YouTube; reprodução automática pode exigir um gesto no navegador.
-- Temas opcionais por banner, fontes reais licenciadas, GIF/WebP menores, tradução, navegação e atualização pelo aplicativo da beta anterior foram preservados. Android continua exigindo autorização e confirmação do sistema; os celulares são instalados manualmente pelo usuário.
+- Corrige o caminho Explorar personalizações nas configurações: agora mostra e aplica o tema do banner. Há atalho Pré-configuração do banner junto à seleção. A foto permanece visível na prévia em janelas baixas, e a lista de adornos traz miniaturas.
+- O primeiro adorno abre o editor de composição; o botão de posicionamento também aparece nas abas de banners e molduras. Arraste, tamanho, rotação, ordem, duplicação, aplicação e descarte são preservados.
+- Personalizador com prévia ao lado no PC, categorias roláveis e miniaturas de banners maiores. Caixas curtas seguem o conteúdo e o compositor usa uma linha de controles, com campo de até quatro linhas.
+- Paleta com 30 amostras em seis famílias, cor livre por HEX/HSV e estilos sólido, suave e vidro. A escolha preserva banner e fonte.
+- Importação e seleção de vários GIFs/WebP da biblioteca ou arquivos; envio sequencial com tratamento de falhas e proteção ao trocar de conversa/conta.
+- Saturno da interface acompanha a cor do tema; ícone monocromático de notificação Android com proporção própria. Guia de autorização de instalação desconhecida abre as configurações do Android, mantendo a confirmação do sistema.
+- Banner Natureza Anciã reconstruído e primeiro Camp Crystal Lake individual integrado. Camp mantém a placa temática, recebe identidade azul/vermelha e reflexos de água. As imagens têm 2172×724 e são adaptadas pela interface; não são arquivos 1920×480. Camp usa Metal Mania existente como alternativa provisória, não uma fonte original criada a partir da prancha.
+- Player fixo, tradução, temas opcionais e atualização pelo aplicativo preservados.
 
-Validação: 248 testes Flutter aprovados, seis capturas opcionais omitidas, análise sem problemas. Testes de composição cobrem mouse, toque, teclado, rotação, ordem, duplicação, remoção, prévia, falha/repetição de gravação e descarte em layouts de celular e PC. Migração do servidor aplicada após testes com rollback; autorização de dono, leitura de contato, rejeição de usuário não autorizado e conflito entre edições verificados. Builds e integridade dos pacotes são conferidos antes da publicação.
+Validação: 261 testes Flutter aprovados, dez capturas opcionais omitidas, análise sem problemas e quatro capturas reais de widgets. Contratos do servidor e autorização testados com rollback antes e após migração. Builds Windows, Android ARM64 e Web concluídos; pacotes passam por comparação de arquivos e SHA-256 antes da publicação. Não foi validado arraste físico Android, envio autenticado de vários GIFs ou upgrade físico Android nesta rodada.
 
-Continuam em desenvolvimento: catálogo remoto sem nova versão, novas artes e fontes das últimas pranchas, temas completos para essas artes, redução do pacote, seleção imediata de faixa, rádio RD, ouvir só eu, modo independente sem vídeo, Spotify e pareamento local de figurinhas. Importação de playlists PL/UU/OLAK e busca por nome dependem de YOUTUBE_API_KEY, ainda ausente; o link de rádio RD enviado não está coberto. O player oficial pode exibir anúncios. Tradução PT↔EN e música de arquivos dependem dos serviços online deste PC. As artes raster são estáticas com efeitos procedurais; não foram extraídos GIFs dos JPEGs. Chamadas humanas e upgrade físico Android entre versões com atualizador ainda não foram validados.
+Pendências explícitas: fontes originais do zero a partir dos nomes/escritas, recortes em toda a interface, maioria dos banners/molduras/adornos das novas coleções, identidade completa para cada banner, catálogo remoto sem reinstalação, todos os jogos Steam, Status de 24h, animações e sons adicionais, rádio RD, playlists e modo independente sem vídeo, além das demais pendências documentadas. Referências preservadas não são itens entregues. Busca e importação de playlists dependem de YOUTUBE_API_KEY ainda ausente.
 
-Android usa assinatura de teste; Windows não tem assinatura digital de publicador. Nenhuma compra/moeda ativa. Esta beta entrega a etapa validada e não encerra o escopo integral.
+Android mantém assinatura de teste e confirmação do sistema; Windows ainda não tem assinatura digital de publicador. Celulares são instalados manualmente pelo usuário.
 
-Site: https://blackfoxy0.github.io/voxlink-site/ — Instaladores e checksums na release v0.6.6.
+Site: https://blackfoxy0.github.io/voxlink-site/ — Instaladores e checksums na release v0.6.8.
