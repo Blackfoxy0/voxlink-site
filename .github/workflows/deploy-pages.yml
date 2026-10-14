@@ -32,9 +32,9 @@ jobs:
         shell: bash
         run: |
           curl --fail --location --retry 3 --proto '=https' --tlsv1.2 \
-            'https://github.com/Blackfoxy0/voxlink-site/releases/download/v0.6.5/voxlink-web-site-complete.zip' \
+            'https://github.com/Blackfoxy0/voxlink-site/releases/download/v0.6.6/voxlink-web-site-complete.zip' \
             --output "$RUNNER_TEMP/voxlink-web-site-complete.zip"
-          echo '8ac7f0fcc65146ab9cdf89bb261fd58f458da7341147261330a0674ccdbdeab4  '"$RUNNER_TEMP/voxlink-web-site-complete.zip" | sha256sum --check --strict
+          echo '23a8589b76844b0049d6be6c257216d66fef8ee423908a4c52926639436dcac1  '"$RUNNER_TEMP/voxlink-web-site-complete.zip" | sha256sum --check --strict
           mkdir -p _site
           unzip -q "$RUNNER_TEMP/voxlink-web-site-complete.zip" 'app/*' -d _site
           cp index.html styles.css script.js releases.json coffee.png voxlink-saturn.png music-player.html _site/
