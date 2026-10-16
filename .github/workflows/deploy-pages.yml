@@ -1,112 +1,50 @@
 name: Publish VoxLink website and web app
-
-
-
 on:
-
   push:
-
     branches: [main]
-
   workflow_dispatch:
-
-
-
 permissions:
-
   contents: read
-
-
-
 concurrency:
-
   group: voxlink-pages
-
   cancel-in-progress: false
-
-
-
 jobs:
-
   deploy:
-
     runs-on: ubuntu-latest
-
     timeout-minutes: 15
-
     permissions:
-
       contents: read
-
       pages: write
-
       id-token: write
-
     environment:
-
       name: github-pages
-
       url: ${{ steps.deployment.outputs.page_url }}
-
     steps:
-
       - name: Read public website source
-
         uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
-
         with:
-
           persist-credentials: false
-
       - name: Fetch verified compiled web app
-
         shell: bash
-
         run: |
-
           curl --fail --location --retry 3 --proto '=https' --tlsv1.2 \
-
             'https://github.com/Blackfoxy0/voxlink-site/releases/download/v0.9.0/voxlink-web-site-complete.zip' \
-
             --output "$RUNNER_TEMP/voxlink-web-site-complete.zip"
-
           echo '9cdd93c87b1d588f003b2312004bbf8e815b537e52b4880045eef32dc6464364  '"$RUNNER_TEMP/voxlink-web-site-complete.zip" | sha256sum --check --strict
-
           mkdir -p _site
-
           unzip -q "$RUNNER_TEMP/voxlink-web-site-complete.zip" 'app/*' -d _site
-
           cp index.html styles.css script.js releases.json coffee.png voxlink-saturn.png music-player.html _site/
-
           touch _site/.nojekyll
-
           test -s _site/app/main.dart.js
-
           test -s _site/app/assets/AssetManifest.bin.json
-
           test -s _site/app/assets/assets/branding/voxlink-saturn.webp
-
           test -s _site/app/assets/assets/support/coffee.webp
-
       - name: Configure public Pages deployment
-
         uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
-
       - name: Upload public assets only
-
         uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
-
         with:
-
           path: _site
-
       - name: Publish website and app
-
         id: deployment
-
         uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
-
-
-
-
-
