@@ -1,0 +1,25 @@
+name: Publish verified VoxLink 1.0.0 Windows and Web
+on:
+  push:
+    branches: [release-1.0.0-20261022]
+permissions:
+  contents: read
+concurrency:
+  group: voxlink-release-1.0.0
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'Blackfoxy0/voxlink-site' && github.ref == 'refs/heads/release-1.0.0-20261022'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - name: Read verified release manifest
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803
+        with:
+          persist-credentials: false
+      - name: Verify artifacts and publish 1.0.0
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 .release-1.0.0/publish.py

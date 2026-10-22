@@ -1,0 +1,3860 @@
+{
+  "version": "1.0.0",
+  "build": 32,
+  "repository": "Blackfoxy0/voxlink-site",
+  "artifacts": {
+    "voxlink-windows.zip": {
+      "bytes": 80032586,
+      "sha256": "5908a5c593147f18ced232a82e695a1ee01d4384001e91dfc9517fe324c9908d"
+    },
+    "voxlink-windows-setup.exe": {
+      "bytes": 80812032,
+      "sha256": "86c34c38a12232aa219b3798ca443b81ecfa24611c1808c47a9dd7cb0dcf9955"
+    },
+    "voxlink-web-site-complete.zip": {
+      "bytes": 72505529,
+      "sha256": "a87bc998f4f26c72832a69492fbf75de05db2441d82642a9526714a11a4571c7"
+    },
+    "RELEASE_NOTES.md": {
+      "bytes": 2233,
+      "sha256": "d7cff542b0c54ca81b117a03dac3a7e0c395603551221c97e75d46bbd89dceac"
+    }
+  },
+  "sourceSizes": {
+    "windows": 80032586,
+    "delta": 18504107
+  },
+  "parts": [
+    {
+      "source": "windows",
+      "offset": 0,
+      "length": 2867196,
+      "blob": "5425625e11a570855d56db45500eb29f056cd0df",
+      "sha256": "a24edc3bc716e78c5f2bfb9cba89758f4343a7a333dbdeb656ae5a82a6fcee66"
+    },
+    {
+      "source": "windows",
+      "offset": 2867196,
+      "length": 2867196,
+      "blob": "21f39d8451ca38a613d1ce02c0b245f4c776754b",
+      "sha256": "d73b58f20063aa190b7e796711bd286d81e0d888ef18904dca47065563fda302"
+    },
+    {
+      "source": "windows",
+      "offset": 5734392,
+      "length": 2867196,
+      "blob": "f21d2a4693fac4f4b1c282c5fccfd7395a4a4734",
+      "sha256": "df59e3a480d5e431afe3a9bc4cada8bc3cc0ad1bac81aa26afd0b424e263f91e"
+    },
+    {
+      "source": "windows",
+      "offset": 8601588,
+      "length": 2867196,
+      "blob": "0c8ef2324c836d5d28916c726a9426d6f2ca3f12",
+      "sha256": "6d384a2ba48e0e768b125a82c69fca39db79706feaf5218bb9bb98485252e8c8"
+    },
+    {
+      "source": "windows",
+      "offset": 11468784,
+      "length": 2867196,
+      "blob": "e4e612913594f81275f7e55e3c0bac845fbed321",
+      "sha256": "a39b25f758ac51947bcbc378ed80d9db9ffcb3b3ecb90452aaa791993b0b869d"
+    },
+    {
+      "source": "windows",
+      "offset": 14335980,
+      "length": 2867196,
+      "blob": "34af974b5992bd29be752bf307bb0328cc1bd35f",
+      "sha256": "b6bbfddafe3de2096073a8963d537d3925b7d11926898e893e7d716b421540d8"
+    },
+    {
+      "source": "windows",
+      "offset": 17203176,
+      "length": 2867196,
+      "blob": "726cde01d508e2afe02667f0c0a05491d1d35f7a",
+      "sha256": "1fa267455bbc48cd1bc83e77282f95690856f3b9aa77005563b291cf2aaee142"
+    },
+    {
+      "source": "windows",
+      "offset": 20070372,
+      "length": 2867196,
+      "blob": "e8dff13e13550edd3d7558c7ac8b467a238bdb0e",
+      "sha256": "6f959ccc9632e70ff98debd25eef40d0fe72ad09b738f42f1988b451cab3f40e"
+    },
+    {
+      "source": "windows",
+      "offset": 22937568,
+      "length": 2867196,
+      "blob": "18f7836fb493eeca3121beb72932189d0dfcc94a",
+      "sha256": "417ecd39e98226f65446fb2d5348fa30294f2fe0eaf0855cb3dcde3a61157c5c"
+    },
+    {
+      "source": "windows",
+      "offset": 25804764,
+      "length": 2867196,
+      "blob": "8df6693b2cb87ea56e330ab8dec5dd6ab3a69ce3",
+      "sha256": "0f7cca50f0a0999249cbdd38936a63b3b8846270b03925c6e0bd1aa493f01e2b"
+    },
+    {
+      "source": "windows",
+      "offset": 28671960,
+      "length": 2867196,
+      "blob": "d83942866c98a87cf13c03bf3a3ad02043ef5261",
+      "sha256": "4a170fe33d1199b5c39d282fb9bf7d246d4bd3db9e1429edaedad5b98bc30c4f"
+    },
+    {
+      "source": "windows",
+      "offset": 31539156,
+      "length": 2867196,
+      "blob": "799d544582e44d1fed7ccf1653c68ca788cae1ba",
+      "sha256": "75e4e070840adc2782a5906ee7f6b6bb4e20ced1d4de8bfc17d3d03b04c7dd97"
+    },
+    {
+      "source": "windows",
+      "offset": 34406352,
+      "length": 2867196,
+      "blob": "1e106b8f312582bf285abaa3de49ba85ca9467ca",
+      "sha256": "cf1fa4c6b0b3e4e08f2ba2a117c9540f8b2ae0502c88f1f6a66c7030f82e50ee"
+    },
+    {
+      "source": "windows",
+      "offset": 37273548,
+      "length": 2867196,
+      "blob": "f2ec67a2f902bd1c14fd5c3a1cddbb26d620294a",
+      "sha256": "323131bcbc24fdcce4ab9a7e5ac6e35d3e4ce3b880c8b56637758813753a6ebd"
+    },
+    {
+      "source": "windows",
+      "offset": 40140744,
+      "length": 2867196,
+      "blob": "19b705ea618153f222f156330f944cc7c5c2be0e",
+      "sha256": "209f3197deea5d055204c9a44c65a6ca3cbb8667812404980078a41de3f87c59"
+    },
+    {
+      "source": "windows",
+      "offset": 43007940,
+      "length": 2867196,
+      "blob": "6ae59a4f62e1baf8d062d934d614da887598c85d",
+      "sha256": "57896dcafa8a403e9737f64ca60bafa0a52361da95cca7d765000aae77df19fb"
+    },
+    {
+      "source": "windows",
+      "offset": 45875136,
+      "length": 2867196,
+      "blob": "5e2180d0b8d204026ca064d43b3fe088c716345f",
+      "sha256": "01106489dc1b2ff3a93383f850c0899ebbd9040cd35ac85ec9f7d66cf5a6bba7"
+    },
+    {
+      "source": "windows",
+      "offset": 48742332,
+      "length": 2867196,
+      "blob": "1918f0d7b4675cb7b5684a67d5edb40e5d41728e",
+      "sha256": "15b66bbef35fd939ddde8b8b930e9e7763366dd3c013676003169451bc43c883"
+    },
+    {
+      "source": "windows",
+      "offset": 51609528,
+      "length": 2867196,
+      "blob": "034334c52c4423491afefb52ba6d3c6753f448fb",
+      "sha256": "1516617b505e2fec1a718eed8bbd8dcda6c33e3044b7bb1a7637a17ab236c1db"
+    },
+    {
+      "source": "windows",
+      "offset": 54476724,
+      "length": 2867196,
+      "blob": "928798650f28f5fdbf2cbb0559e3351965c90f48",
+      "sha256": "8e0bbf5f5cbb0f60eb8ac140f764be6f3da45e931829d6b327a03a01d6074115"
+    },
+    {
+      "source": "windows",
+      "offset": 57343920,
+      "length": 2867196,
+      "blob": "2645680f8c06a96a0f3ca22d66b9e7076ed4046a",
+      "sha256": "d94d2a38be92e3f281a21a210ad80f62f122b2f7496b23e9c5f2c919179306d7"
+    },
+    {
+      "source": "windows",
+      "offset": 60211116,
+      "length": 2867196,
+      "blob": "5360ab61c4ee337506e45112e96ebd99d93a61d2",
+      "sha256": "c23070178964ec04659ce0c2adb99dc757e94799028ca31b12966233e6da4076"
+    },
+    {
+      "source": "windows",
+      "offset": 63078312,
+      "length": 2867196,
+      "blob": "a1193dff67b180ba2b0f031ca1a5e45b941b3d56",
+      "sha256": "7a63bd03f782ea3af2243223e1d3f7e3a4467388da990e9669c709e957b5dcd3"
+    },
+    {
+      "source": "windows",
+      "offset": 65945508,
+      "length": 2867196,
+      "blob": "0c69a69e7f48a25904b6c862f9320d29580cbdb8",
+      "sha256": "9e03a363283bbc8964cdab9dc9888bca6b4d6300638452542e4bf3a2d5d1eb0f"
+    },
+    {
+      "source": "windows",
+      "offset": 68812704,
+      "length": 2867196,
+      "blob": "4df7bbbf8dec32a7e110dbe2d91bd22c97c05c8b",
+      "sha256": "325a1054e3f5760a1f59391a1d5758e33f033c60ce866976ff14bd2761a9b306"
+    },
+    {
+      "source": "windows",
+      "offset": 71679900,
+      "length": 2867196,
+      "blob": "13eb01e736fcada7f6dedca129cf3560cb9e3bb8",
+      "sha256": "6e46c8636679811ae5f13857639c2a66c88fca4c01c0da81ce87718b571e5767"
+    },
+    {
+      "source": "windows",
+      "offset": 74547096,
+      "length": 2867196,
+      "blob": "7772df741ccba0c834420e7a4181e9e59bc27e53",
+      "sha256": "8c6254e7682b7cb11a9fc0d12abe4fb7c608701837a8d244006d02da7b056b84"
+    },
+    {
+      "source": "windows",
+      "offset": 77414292,
+      "length": 2618294,
+      "blob": "d9782af474643dbe58754601053f60bd92f5e5f1",
+      "sha256": "2340fdfcf6db34b92dd5f4fde63cb56b2e4e69178fd768638557cf68486370b7"
+    },
+    {
+      "source": "delta",
+      "offset": 0,
+      "length": 2867196,
+      "blob": "079fae9638820ad57b06d0f12b8faffb146fd776",
+      "sha256": "6f2da9d822c4f98937bd627d194e8009891e494ecf98eb44b29d6a07ba79c4e7"
+    },
+    {
+      "source": "delta",
+      "offset": 2867196,
+      "length": 2867196,
+      "blob": "08d57be815a9197a890bb8d1c00040121310dcbb",
+      "sha256": "4a5edaad08b94c22efb5a124ed84b621a1f221be3e0160270ebbf74b2298914a"
+    },
+    {
+      "source": "delta",
+      "offset": 5734392,
+      "length": 2867196,
+      "blob": "d8b0cccaaa5687a0e10ba32393eef90b3e3b7d20",
+      "sha256": "b975b29964f325f281daeff423a596bc71e49e12292481a8e01e3af95d6b9ac2"
+    },
+    {
+      "source": "delta",
+      "offset": 8601588,
+      "length": 2867196,
+      "blob": "beef125da45b550d6835dd4703527d2bbc4c67b4",
+      "sha256": "0aad8afe72af1679f1c5afd6ec4466c9b0ae7ab20bcfee19887120e54ea635f0"
+    },
+    {
+      "source": "delta",
+      "offset": 11468784,
+      "length": 2867196,
+      "blob": "6ff65a78a0d7e3df6c40a100217743f4ec27873a",
+      "sha256": "741561e8846c5bfdedb657cb9903e1c50506838df1bae2ffe6358135f8f59702"
+    },
+    {
+      "source": "delta",
+      "offset": 14335980,
+      "length": 2867196,
+      "blob": "3d6056803af53b7c43072d3231932b62baf6d074",
+      "sha256": "435e56a50b98e12f6a7660bee1329362c5b7cd85ef179730934f4c82e3d61983"
+    },
+    {
+      "source": "delta",
+      "offset": 17203176,
+      "length": 1300931,
+      "blob": "5c7a141583a5bbf0dc168b1daebeabbbc5c4f4fb",
+      "sha256": "85b0e05a6345d6e36952c068be6cea5ea2881d1f9cac9e9388aaaff6a41dac4a"
+    }
+  ],
+  "plans": {
+    "voxlink-web-site-complete.zip": [
+      {
+        "source": "delta",
+        "offset": 0,
+        "length": 40
+      },
+      {
+        "source": "delta",
+        "offset": 40,
+        "length": 6113
+      },
+      {
+        "source": "delta",
+        "offset": 6153,
+        "length": 40
+      },
+      {
+        "source": "delta",
+        "offset": 6193,
+        "length": 7835
+      },
+      {
+        "source": "delta",
+        "offset": 14028,
+        "length": 39
+      },
+      {
+        "source": "delta",
+        "offset": 14067,
+        "length": 4163
+      },
+      {
+        "source": "delta",
+        "offset": 18230,
+        "length": 43
+      },
+      {
+        "source": "delta",
+        "offset": 18273,
+        "length": 374
+      },
+      {
+        "source": "delta",
+        "offset": 18647,
+        "length": 40
+      },
+      {
+        "source": "delta",
+        "offset": 18687,
+        "length": 1228194
+      },
+      {
+        "source": "delta",
+        "offset": 1246881,
+        "length": 48
+      },
+      {
+        "source": "delta",
+        "offset": 1246929,
+        "length": 605751
+      },
+      {
+        "source": "delta",
+        "offset": 1852680,
+        "length": 47
+      },
+      {
+        "source": "delta",
+        "offset": 1852727,
+        "length": 1706
+      },
+      {
+        "source": "delta",
+        "offset": 1854433,
+        "length": 39
+      },
+      {
+        "source": "delta",
+        "offset": 1854472,
+        "length": 2
+      },
+      {
+        "source": "delta",
+        "offset": 1854474,
+        "length": 45
+      },
+      {
+        "source": "delta",
+        "offset": 1854519,
+        "length": 620
+      },
+      {
+        "source": "delta",
+        "offset": 1855139,
+        "length": 45
+      },
+      {
+        "source": "delta",
+        "offset": 1855184,
+        "length": 252
+      },
+      {
+        "source": "delta",
+        "offset": 1855436,
+        "length": 44
+      },
+      {
+        "source": "delta",
+        "offset": 1855480,
+        "length": 4632
+      },
+      {
+        "source": "delta",
+        "offset": 1860112,
+        "length": 54
+      },
+      {
+        "source": "delta",
+        "offset": 1860166,
+        "length": 5202
+      },
+      {
+        "source": "delta",
+        "offset": 1865368,
+        "length": 59
+      },
+      {
+        "source": "delta",
+        "offset": 1865427,
+        "length": 343
+      },
+      {
+        "source": "delta",
+        "offset": 1865770,
+        "length": 44
+      },
+      {
+        "source": "delta",
+        "offset": 1865814,
+        "length": 1108
+      },
+      {
+        "source": "delta",
+        "offset": 1866922,
+        "length": 46
+      },
+      {
+        "source": "delta",
+        "offset": 1866968,
+        "length": 1703827
+      },
+      {
+        "source": "delta",
+        "offset": 3570795,
+        "length": 47
+      },
+      {
+        "source": "delta",
+        "offset": 3570842,
+        "length": 300
+      },
+      {
+        "source": "delta",
+        "offset": 3571142,
+        "length": 46
+      },
+      {
+        "source": "delta",
+        "offset": 3571188,
+        "length": 68
+      },
+      {
+        "source": "delta",
+        "offset": 3571256,
+        "length": 52
+      },
+      {
+        "source": "delta",
+        "offset": 3571308,
+        "length": 605751
+      },
+      {
+        "source": "delta",
+        "offset": 4177059,
+        "length": 58
+      },
+      {
+        "source": "windows",
+        "offset": 24925925,
+        "length": 3040
+      },
+      {
+        "source": "delta",
+        "offset": 4177117,
+        "length": 63
+      },
+      {
+        "source": "delta",
+        "offset": 4177180,
+        "length": 5142
+      },
+      {
+        "source": "delta",
+        "offset": 4182322,
+        "length": 58
+      },
+      {
+        "source": "windows",
+        "offset": 24929032,
+        "length": 333
+      },
+      {
+        "source": "delta",
+        "offset": 4182380,
+        "length": 48
+      },
+      {
+        "source": "delta",
+        "offset": 4182428,
+        "length": 119769
+      },
+      {
+        "source": "delta",
+        "offset": 4302197,
+        "length": 56
+      },
+      {
+        "source": "delta",
+        "offset": 4302253,
+        "length": 27505
+      },
+      {
+        "source": "delta",
+        "offset": 4329758,
+        "length": 64
+      },
+      {
+        "source": "delta",
+        "offset": 4329822,
+        "length": 204515
+      },
+      {
+        "source": "delta",
+        "offset": 4534337,
+        "length": 58
+      },
+      {
+        "source": "delta",
+        "offset": 4534395,
+        "length": 2919939
+      },
+      {
+        "source": "delta",
+        "offset": 7454334,
+        "length": 53
+      },
+      {
+        "source": "delta",
+        "offset": 7454387,
+        "length": 17065
+      },
+      {
+        "source": "delta",
+        "offset": 7471452,
+        "length": 61
+      },
+      {
+        "source": "delta",
+        "offset": 7471513,
+        "length": 232062
+      },
+      {
+        "source": "delta",
+        "offset": 7703575,
+        "length": 55
+      },
+      {
+        "source": "delta",
+        "offset": 7703630,
+        "length": 1539629
+      },
+      {
+        "source": "delta",
+        "offset": 9243259,
+        "length": 59
+      },
+      {
+        "source": "delta",
+        "offset": 9243318,
+        "length": 17078
+      },
+      {
+        "source": "delta",
+        "offset": 9260396,
+        "length": 67
+      },
+      {
+        "source": "delta",
+        "offset": 9260463,
+        "length": 259521
+      },
+      {
+        "source": "delta",
+        "offset": 9519984,
+        "length": 61
+      },
+      {
+        "source": "delta",
+        "offset": 9520045,
+        "length": 2291646
+      },
+      {
+        "source": "delta",
+        "offset": 11811691,
+        "length": 51
+      },
+      {
+        "source": "delta",
+        "offset": 11811742,
+        "length": 16742
+      },
+      {
+        "source": "delta",
+        "offset": 11828484,
+        "length": 59
+      },
+      {
+        "source": "delta",
+        "offset": 11828543,
+        "length": 209498
+      },
+      {
+        "source": "delta",
+        "offset": 12038041,
+        "length": 53
+      },
+      {
+        "source": "delta",
+        "offset": 12038094,
+        "length": 1452034
+      },
+      {
+        "source": "delta",
+        "offset": 13490128,
+        "length": 52
+      },
+      {
+        "source": "delta",
+        "offset": 13490180,
+        "length": 27335
+      },
+      {
+        "source": "delta",
+        "offset": 13517515,
+        "length": 52
+      },
+      {
+        "source": "delta",
+        "offset": 13517567,
+        "length": 127109
+      },
+      {
+        "source": "delta",
+        "offset": 13644676,
+        "length": 61
+      },
+      {
+        "source": "delta",
+        "offset": 13644737,
+        "length": 27335
+      },
+      {
+        "source": "delta",
+        "offset": 13672072,
+        "length": 61
+      },
+      {
+        "source": "delta",
+        "offset": 13672133,
+        "length": 127109
+      },
+      {
+        "source": "delta",
+        "offset": 13799242,
+        "length": 72
+      },
+      {
+        "source": "delta",
+        "offset": 13799314,
+        "length": 23297
+      },
+      {
+        "source": "delta",
+        "offset": 13822611,
+        "length": 65
+      },
+      {
+        "source": "delta",
+        "offset": 13822676,
+        "length": 1991
+      },
+      {
+        "source": "delta",
+        "offset": 13824667,
+        "length": 68
+      },
+      {
+        "source": "delta",
+        "offset": 13824735,
+        "length": 1332
+      },
+      {
+        "source": "delta",
+        "offset": 13826067,
+        "length": 75
+      },
+      {
+        "source": "windows",
+        "offset": 25047058,
+        "length": 207248
+      },
+      {
+        "source": "delta",
+        "offset": 13826142,
+        "length": 74
+      },
+      {
+        "source": "windows",
+        "offset": 25254389,
+        "length": 1983231
+      },
+      {
+        "source": "delta",
+        "offset": 13826216,
+        "length": 83
+      },
+      {
+        "source": "windows",
+        "offset": 27237712,
+        "length": 16476
+      },
+      {
+        "source": "delta",
+        "offset": 13826299,
+        "length": 76
+      },
+      {
+        "source": "windows",
+        "offset": 27254273,
+        "length": 1124267
+      },
+      {
+        "source": "delta",
+        "offset": 13826375,
+        "length": 76
+      },
+      {
+        "source": "windows",
+        "offset": 28378625,
+        "length": 84898
+      },
+      {
+        "source": "delta",
+        "offset": 13826451,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 28463614,
+        "length": 225580
+      },
+      {
+        "source": "delta",
+        "offset": 13826533,
+        "length": 68
+      },
+      {
+        "source": "windows",
+        "offset": 28689271,
+        "length": 197520
+      },
+      {
+        "source": "delta",
+        "offset": 13826601,
+        "length": 74
+      },
+      {
+        "source": "windows",
+        "offset": 28886874,
+        "length": 334043
+      },
+      {
+        "source": "delta",
+        "offset": 13826675,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 29221008,
+        "length": 202951
+      },
+      {
+        "source": "delta",
+        "offset": 13826757,
+        "length": 69
+      },
+      {
+        "source": "windows",
+        "offset": 29424037,
+        "length": 362683
+      },
+      {
+        "source": "delta",
+        "offset": 13826826,
+        "length": 69
+      },
+      {
+        "source": "windows",
+        "offset": 29786798,
+        "length": 406302
+      },
+      {
+        "source": "delta",
+        "offset": 13826895,
+        "length": 69
+      },
+      {
+        "source": "windows",
+        "offset": 30193178,
+        "length": 252086
+      },
+      {
+        "source": "delta",
+        "offset": 13826964,
+        "length": 87
+      },
+      {
+        "source": "windows",
+        "offset": 30445360,
+        "length": 386838
+      },
+      {
+        "source": "delta",
+        "offset": 13827051,
+        "length": 71
+      },
+      {
+        "source": "windows",
+        "offset": 30832278,
+        "length": 45373
+      },
+      {
+        "source": "delta",
+        "offset": 13827122,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 30877738,
+        "length": 114513
+      },
+      {
+        "source": "delta",
+        "offset": 13827200,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 30992338,
+        "length": 194629
+      },
+      {
+        "source": "delta",
+        "offset": 13827278,
+        "length": 70
+      },
+      {
+        "source": "windows",
+        "offset": 31187046,
+        "length": 191310
+      },
+      {
+        "source": "delta",
+        "offset": 13827348,
+        "length": 85
+      },
+      {
+        "source": "windows",
+        "offset": 31378450,
+        "length": 254292
+      },
+      {
+        "source": "delta",
+        "offset": 13827433,
+        "length": 70
+      },
+      {
+        "source": "windows",
+        "offset": 31632821,
+        "length": 349975
+      },
+      {
+        "source": "delta",
+        "offset": 13827503,
+        "length": 67
+      },
+      {
+        "source": "windows",
+        "offset": 31982872,
+        "length": 344662
+      },
+      {
+        "source": "delta",
+        "offset": 13827570,
+        "length": 75
+      },
+      {
+        "source": "windows",
+        "offset": 32327618,
+        "length": 361987
+      },
+      {
+        "source": "delta",
+        "offset": 13827645,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 32689696,
+        "length": 288983
+      },
+      {
+        "source": "delta",
+        "offset": 13827727,
+        "length": 74
+      },
+      {
+        "source": "windows",
+        "offset": 32978762,
+        "length": 423631
+      },
+      {
+        "source": "delta",
+        "offset": 13827801,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33402484,
+        "length": 28008
+      },
+      {
+        "source": "delta",
+        "offset": 13827883,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33430583,
+        "length": 31115
+      },
+      {
+        "source": "delta",
+        "offset": 13827965,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33461789,
+        "length": 27965
+      },
+      {
+        "source": "delta",
+        "offset": 13828047,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33489845,
+        "length": 19789
+      },
+      {
+        "source": "delta",
+        "offset": 13828129,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33509725,
+        "length": 20535
+      },
+      {
+        "source": "delta",
+        "offset": 13828211,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33530351,
+        "length": 25159
+      },
+      {
+        "source": "delta",
+        "offset": 13828293,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33555601,
+        "length": 20184
+      },
+      {
+        "source": "delta",
+        "offset": 13828375,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33575876,
+        "length": 22636
+      },
+      {
+        "source": "delta",
+        "offset": 13828457,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33598603,
+        "length": 29611
+      },
+      {
+        "source": "delta",
+        "offset": 13828539,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33628305,
+        "length": 20008
+      },
+      {
+        "source": "delta",
+        "offset": 13828621,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33648404,
+        "length": 18520
+      },
+      {
+        "source": "delta",
+        "offset": 13828703,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33667015,
+        "length": 17355
+      },
+      {
+        "source": "delta",
+        "offset": 13828785,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33684461,
+        "length": 27398
+      },
+      {
+        "source": "delta",
+        "offset": 13828867,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33711950,
+        "length": 25878
+      },
+      {
+        "source": "delta",
+        "offset": 13828949,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33737919,
+        "length": 22307
+      },
+      {
+        "source": "delta",
+        "offset": 13829031,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33760317,
+        "length": 32759
+      },
+      {
+        "source": "delta",
+        "offset": 13829113,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33793167,
+        "length": 29329
+      },
+      {
+        "source": "delta",
+        "offset": 13829195,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33822587,
+        "length": 25194
+      },
+      {
+        "source": "delta",
+        "offset": 13829277,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33847872,
+        "length": 26396
+      },
+      {
+        "source": "delta",
+        "offset": 13829359,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33874359,
+        "length": 27035
+      },
+      {
+        "source": "delta",
+        "offset": 13829441,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33901485,
+        "length": 29706
+      },
+      {
+        "source": "delta",
+        "offset": 13829523,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33931282,
+        "length": 22379
+      },
+      {
+        "source": "delta",
+        "offset": 13829605,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33953752,
+        "length": 27150
+      },
+      {
+        "source": "delta",
+        "offset": 13829687,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 33980993,
+        "length": 30127
+      },
+      {
+        "source": "delta",
+        "offset": 13829769,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34011211,
+        "length": 27084
+      },
+      {
+        "source": "delta",
+        "offset": 13829851,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34038386,
+        "length": 24532
+      },
+      {
+        "source": "delta",
+        "offset": 13829933,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34063009,
+        "length": 29211
+      },
+      {
+        "source": "delta",
+        "offset": 13830015,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34092311,
+        "length": 36149
+      },
+      {
+        "source": "delta",
+        "offset": 13830097,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34128551,
+        "length": 21722
+      },
+      {
+        "source": "delta",
+        "offset": 13830179,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34150364,
+        "length": 25313
+      },
+      {
+        "source": "delta",
+        "offset": 13830261,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34175768,
+        "length": 30641
+      },
+      {
+        "source": "delta",
+        "offset": 13830343,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34206500,
+        "length": 23790
+      },
+      {
+        "source": "delta",
+        "offset": 13830425,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34230381,
+        "length": 18317
+      },
+      {
+        "source": "delta",
+        "offset": 13830507,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34248789,
+        "length": 27613
+      },
+      {
+        "source": "delta",
+        "offset": 13830589,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34276493,
+        "length": 21857
+      },
+      {
+        "source": "delta",
+        "offset": 13830671,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34298441,
+        "length": 13493
+      },
+      {
+        "source": "delta",
+        "offset": 13830753,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34312025,
+        "length": 17740
+      },
+      {
+        "source": "delta",
+        "offset": 13830835,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34329856,
+        "length": 31576
+      },
+      {
+        "source": "delta",
+        "offset": 13830917,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34361523,
+        "length": 25092
+      },
+      {
+        "source": "delta",
+        "offset": 13830999,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34386706,
+        "length": 23364
+      },
+      {
+        "source": "delta",
+        "offset": 13831081,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34410161,
+        "length": 24148
+      },
+      {
+        "source": "delta",
+        "offset": 13831163,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34434400,
+        "length": 19499
+      },
+      {
+        "source": "delta",
+        "offset": 13831245,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34453990,
+        "length": 25117
+      },
+      {
+        "source": "delta",
+        "offset": 13831327,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34479198,
+        "length": 24145
+      },
+      {
+        "source": "delta",
+        "offset": 13831409,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34503434,
+        "length": 26783
+      },
+      {
+        "source": "delta",
+        "offset": 13831491,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34530308,
+        "length": 17237
+      },
+      {
+        "source": "delta",
+        "offset": 13831573,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34547636,
+        "length": 24278
+      },
+      {
+        "source": "delta",
+        "offset": 13831655,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34572005,
+        "length": 21250
+      },
+      {
+        "source": "delta",
+        "offset": 13831737,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34593346,
+        "length": 18057
+      },
+      {
+        "source": "delta",
+        "offset": 13831819,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34611494,
+        "length": 27691
+      },
+      {
+        "source": "delta",
+        "offset": 13831901,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34639276,
+        "length": 30402
+      },
+      {
+        "source": "delta",
+        "offset": 13831983,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34669769,
+        "length": 20139
+      },
+      {
+        "source": "delta",
+        "offset": 13832065,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34689999,
+        "length": 21700
+      },
+      {
+        "source": "delta",
+        "offset": 13832147,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34711790,
+        "length": 23317
+      },
+      {
+        "source": "delta",
+        "offset": 13832229,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34735198,
+        "length": 19273
+      },
+      {
+        "source": "delta",
+        "offset": 13832311,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34754562,
+        "length": 27856
+      },
+      {
+        "source": "delta",
+        "offset": 13832393,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34782509,
+        "length": 21722
+      },
+      {
+        "source": "delta",
+        "offset": 13832475,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34804322,
+        "length": 19355
+      },
+      {
+        "source": "delta",
+        "offset": 13832557,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34823768,
+        "length": 18478
+      },
+      {
+        "source": "delta",
+        "offset": 13832639,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34842337,
+        "length": 22455
+      },
+      {
+        "source": "delta",
+        "offset": 13832721,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34864883,
+        "length": 16469
+      },
+      {
+        "source": "delta",
+        "offset": 13832803,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34881443,
+        "length": 16318
+      },
+      {
+        "source": "delta",
+        "offset": 13832885,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34897852,
+        "length": 24546
+      },
+      {
+        "source": "delta",
+        "offset": 13832967,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34922489,
+        "length": 21965
+      },
+      {
+        "source": "delta",
+        "offset": 13833049,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34944545,
+        "length": 22672
+      },
+      {
+        "source": "delta",
+        "offset": 13833131,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34967308,
+        "length": 29255
+      },
+      {
+        "source": "delta",
+        "offset": 13833213,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 34996654,
+        "length": 26183
+      },
+      {
+        "source": "delta",
+        "offset": 13833295,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35022928,
+        "length": 24963
+      },
+      {
+        "source": "delta",
+        "offset": 13833377,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35047982,
+        "length": 28394
+      },
+      {
+        "source": "delta",
+        "offset": 13833459,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35076467,
+        "length": 21903
+      },
+      {
+        "source": "delta",
+        "offset": 13833541,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35098461,
+        "length": 22437
+      },
+      {
+        "source": "delta",
+        "offset": 13833623,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35120989,
+        "length": 33110
+      },
+      {
+        "source": "delta",
+        "offset": 13833705,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35154190,
+        "length": 30557
+      },
+      {
+        "source": "delta",
+        "offset": 13833787,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35184838,
+        "length": 24237
+      },
+      {
+        "source": "delta",
+        "offset": 13833869,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35209166,
+        "length": 27396
+      },
+      {
+        "source": "delta",
+        "offset": 13833951,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35236653,
+        "length": 34017
+      },
+      {
+        "source": "delta",
+        "offset": 13834033,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35270761,
+        "length": 30847
+      },
+      {
+        "source": "delta",
+        "offset": 13834115,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35301699,
+        "length": 30742
+      },
+      {
+        "source": "delta",
+        "offset": 13834197,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35332532,
+        "length": 30390
+      },
+      {
+        "source": "delta",
+        "offset": 13834279,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35363013,
+        "length": 30173
+      },
+      {
+        "source": "delta",
+        "offset": 13834361,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35393277,
+        "length": 22421
+      },
+      {
+        "source": "delta",
+        "offset": 13834443,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35415789,
+        "length": 25248
+      },
+      {
+        "source": "delta",
+        "offset": 13834525,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35441128,
+        "length": 36556
+      },
+      {
+        "source": "delta",
+        "offset": 13834607,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35477775,
+        "length": 26058
+      },
+      {
+        "source": "delta",
+        "offset": 13834689,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35503924,
+        "length": 27632
+      },
+      {
+        "source": "delta",
+        "offset": 13834771,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35531647,
+        "length": 25939
+      },
+      {
+        "source": "delta",
+        "offset": 13834853,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35557677,
+        "length": 26131
+      },
+      {
+        "source": "delta",
+        "offset": 13834935,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35583899,
+        "length": 25615
+      },
+      {
+        "source": "delta",
+        "offset": 13835017,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35609605,
+        "length": 22572
+      },
+      {
+        "source": "delta",
+        "offset": 13835099,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35632268,
+        "length": 22336
+      },
+      {
+        "source": "delta",
+        "offset": 13835181,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35654695,
+        "length": 26195
+      },
+      {
+        "source": "delta",
+        "offset": 13835263,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35680981,
+        "length": 17962
+      },
+      {
+        "source": "delta",
+        "offset": 13835345,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35699034,
+        "length": 28274
+      },
+      {
+        "source": "delta",
+        "offset": 13835427,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35727399,
+        "length": 28460
+      },
+      {
+        "source": "delta",
+        "offset": 13835509,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35755950,
+        "length": 24734
+      },
+      {
+        "source": "delta",
+        "offset": 13835591,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35780775,
+        "length": 21346
+      },
+      {
+        "source": "delta",
+        "offset": 13835673,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35802212,
+        "length": 26659
+      },
+      {
+        "source": "delta",
+        "offset": 13835755,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35828962,
+        "length": 29970
+      },
+      {
+        "source": "delta",
+        "offset": 13835837,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35859023,
+        "length": 21676
+      },
+      {
+        "source": "delta",
+        "offset": 13835919,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 35880790,
+        "length": 26478
+      },
+      {
+        "source": "delta",
+        "offset": 13836001,
+        "length": 81
+      },
+      {
+        "source": "windows",
+        "offset": 35907358,
+        "length": 1725344
+      },
+      {
+        "source": "delta",
+        "offset": 13836082,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 37632790,
+        "length": 147487
+      },
+      {
+        "source": "delta",
+        "offset": 13836161,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 37780365,
+        "length": 143097
+      },
+      {
+        "source": "delta",
+        "offset": 13836240,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 37923550,
+        "length": 119662
+      },
+      {
+        "source": "delta",
+        "offset": 13836319,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 38043300,
+        "length": 166353
+      },
+      {
+        "source": "delta",
+        "offset": 13836398,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 38209741,
+        "length": 161468
+      },
+      {
+        "source": "delta",
+        "offset": 13836477,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 38371297,
+        "length": 183278
+      },
+      {
+        "source": "delta",
+        "offset": 13836556,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 38554663,
+        "length": 159388
+      },
+      {
+        "source": "delta",
+        "offset": 13836635,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 38714139,
+        "length": 160975
+      },
+      {
+        "source": "delta",
+        "offset": 13836714,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 38875202,
+        "length": 153898
+      },
+      {
+        "source": "delta",
+        "offset": 13836793,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 39029188,
+        "length": 167136
+      },
+      {
+        "source": "delta",
+        "offset": 13836872,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 39196412,
+        "length": 165278
+      },
+      {
+        "source": "delta",
+        "offset": 13836951,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 39361778,
+        "length": 170113
+      },
+      {
+        "source": "delta",
+        "offset": 13837030,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 39531979,
+        "length": 143771
+      },
+      {
+        "source": "delta",
+        "offset": 13837109,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 39675838,
+        "length": 147277
+      },
+      {
+        "source": "delta",
+        "offset": 13837188,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 39823203,
+        "length": 138506
+      },
+      {
+        "source": "delta",
+        "offset": 13837267,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 39961797,
+        "length": 166479
+      },
+      {
+        "source": "delta",
+        "offset": 13837346,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 40128364,
+        "length": 163430
+      },
+      {
+        "source": "delta",
+        "offset": 13837425,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 40291882,
+        "length": 152813
+      },
+      {
+        "source": "delta",
+        "offset": 13837504,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 40444783,
+        "length": 158211
+      },
+      {
+        "source": "delta",
+        "offset": 13837583,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 40603082,
+        "length": 151260
+      },
+      {
+        "source": "delta",
+        "offset": 13837662,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 40754430,
+        "length": 165967
+      },
+      {
+        "source": "delta",
+        "offset": 13837741,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 40920485,
+        "length": 161612
+      },
+      {
+        "source": "delta",
+        "offset": 13837820,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 41082185,
+        "length": 170892
+      },
+      {
+        "source": "delta",
+        "offset": 13837899,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 41253165,
+        "length": 161109
+      },
+      {
+        "source": "delta",
+        "offset": 13837978,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 41414362,
+        "length": 152863
+      },
+      {
+        "source": "delta",
+        "offset": 13838057,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 41567313,
+        "length": 150433
+      },
+      {
+        "source": "delta",
+        "offset": 13838136,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 41717834,
+        "length": 135528
+      },
+      {
+        "source": "delta",
+        "offset": 13838215,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 41853450,
+        "length": 149562
+      },
+      {
+        "source": "delta",
+        "offset": 13838294,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 42003100,
+        "length": 163581
+      },
+      {
+        "source": "delta",
+        "offset": 13838373,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 42166769,
+        "length": 145559
+      },
+      {
+        "source": "delta",
+        "offset": 13838452,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 42312415,
+        "length": 145119
+      },
+      {
+        "source": "delta",
+        "offset": 13838530,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 42457621,
+        "length": 120652
+      },
+      {
+        "source": "delta",
+        "offset": 13838608,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 42578360,
+        "length": 121026
+      },
+      {
+        "source": "delta",
+        "offset": 13838686,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 42699473,
+        "length": 138721
+      },
+      {
+        "source": "delta",
+        "offset": 13838764,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 42838281,
+        "length": 129926
+      },
+      {
+        "source": "delta",
+        "offset": 13838842,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 42968294,
+        "length": 127666
+      },
+      {
+        "source": "delta",
+        "offset": 13838920,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 43096047,
+        "length": 166829
+      },
+      {
+        "source": "delta",
+        "offset": 13838998,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 43262963,
+        "length": 148740
+      },
+      {
+        "source": "delta",
+        "offset": 13839076,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 43411790,
+        "length": 155188
+      },
+      {
+        "source": "delta",
+        "offset": 13839154,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 43567065,
+        "length": 113761
+      },
+      {
+        "source": "delta",
+        "offset": 13839232,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 43680913,
+        "length": 138639
+      },
+      {
+        "source": "delta",
+        "offset": 13839310,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 43819639,
+        "length": 121728
+      },
+      {
+        "source": "delta",
+        "offset": 13839388,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 43941454,
+        "length": 140077
+      },
+      {
+        "source": "delta",
+        "offset": 13839466,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 44081618,
+        "length": 157134
+      },
+      {
+        "source": "delta",
+        "offset": 13839544,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 44238839,
+        "length": 159804
+      },
+      {
+        "source": "delta",
+        "offset": 13839622,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 44398730,
+        "length": 134483
+      },
+      {
+        "source": "delta",
+        "offset": 13839700,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 44533300,
+        "length": 128192
+      },
+      {
+        "source": "delta",
+        "offset": 13839778,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 44661579,
+        "length": 137465
+      },
+      {
+        "source": "delta",
+        "offset": 13839856,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 44799131,
+        "length": 130720
+      },
+      {
+        "source": "delta",
+        "offset": 13839934,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 44929938,
+        "length": 126376
+      },
+      {
+        "source": "delta",
+        "offset": 13840012,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 45056401,
+        "length": 136343
+      },
+      {
+        "source": "delta",
+        "offset": 13840090,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 45192831,
+        "length": 140413
+      },
+      {
+        "source": "delta",
+        "offset": 13840168,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 45333331,
+        "length": 140227
+      },
+      {
+        "source": "delta",
+        "offset": 13840246,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 45473645,
+        "length": 141913
+      },
+      {
+        "source": "delta",
+        "offset": 13840324,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 45615645,
+        "length": 134933
+      },
+      {
+        "source": "delta",
+        "offset": 13840402,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 45750665,
+        "length": 140029
+      },
+      {
+        "source": "delta",
+        "offset": 13840480,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 45890781,
+        "length": 136551
+      },
+      {
+        "source": "delta",
+        "offset": 13840558,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 46027419,
+        "length": 130018
+      },
+      {
+        "source": "delta",
+        "offset": 13840636,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 46157524,
+        "length": 134655
+      },
+      {
+        "source": "delta",
+        "offset": 13840714,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 46292266,
+        "length": 156002
+      },
+      {
+        "source": "delta",
+        "offset": 13840792,
+        "length": 102
+      },
+      {
+        "source": "windows",
+        "offset": 46448379,
+        "length": 497643
+      },
+      {
+        "source": "delta",
+        "offset": 13840894,
+        "length": 95
+      },
+      {
+        "source": "windows",
+        "offset": 46946126,
+        "length": 494023
+      },
+      {
+        "source": "delta",
+        "offset": 13840989,
+        "length": 96
+      },
+      {
+        "source": "windows",
+        "offset": 47440254,
+        "length": 437587
+      },
+      {
+        "source": "delta",
+        "offset": 13841085,
+        "length": 68
+      },
+      {
+        "source": "windows",
+        "offset": 47877918,
+        "length": 217949
+      },
+      {
+        "source": "delta",
+        "offset": 13841153,
+        "length": 69
+      },
+      {
+        "source": "windows",
+        "offset": 48554369,
+        "length": 408325
+      },
+      {
+        "source": "delta",
+        "offset": 13841222,
+        "length": 76
+      },
+      {
+        "source": "windows",
+        "offset": 48095952,
+        "length": 220382
+      },
+      {
+        "source": "delta",
+        "offset": 13841298,
+        "length": 81
+      },
+      {
+        "source": "windows",
+        "offset": 48316424,
+        "length": 237867
+      },
+      {
+        "source": "delta",
+        "offset": 13841379,
+        "length": 86
+      },
+      {
+        "source": "windows",
+        "offset": 48962789,
+        "length": 271199
+      },
+      {
+        "source": "delta",
+        "offset": 13841465,
+        "length": 68
+      },
+      {
+        "source": "windows",
+        "offset": 49234065,
+        "length": 258166
+      },
+      {
+        "source": "delta",
+        "offset": 13841533,
+        "length": 76
+      },
+      {
+        "source": "windows",
+        "offset": 49492316,
+        "length": 565965
+      },
+      {
+        "source": "delta",
+        "offset": 13841609,
+        "length": 73
+      },
+      {
+        "source": "windows",
+        "offset": 50058363,
+        "length": 340849
+      },
+      {
+        "source": "delta",
+        "offset": 13841682,
+        "length": 76
+      },
+      {
+        "source": "windows",
+        "offset": 50399297,
+        "length": 152220
+      },
+      {
+        "source": "delta",
+        "offset": 13841758,
+        "length": 74
+      },
+      {
+        "source": "windows",
+        "offset": 50551600,
+        "length": 330338
+      },
+      {
+        "source": "delta",
+        "offset": 13841832,
+        "length": 87
+      },
+      {
+        "source": "windows",
+        "offset": 50882034,
+        "length": 319271
+      },
+      {
+        "source": "delta",
+        "offset": 13841919,
+        "length": 83
+      },
+      {
+        "source": "windows",
+        "offset": 51201397,
+        "length": 481574
+      },
+      {
+        "source": "delta",
+        "offset": 13842002,
+        "length": 90
+      },
+      {
+        "source": "windows",
+        "offset": 51683070,
+        "length": 435689
+      },
+      {
+        "source": "delta",
+        "offset": 13842092,
+        "length": 90
+      },
+      {
+        "source": "windows",
+        "offset": 52118858,
+        "length": 278896
+      },
+      {
+        "source": "delta",
+        "offset": 13842182,
+        "length": 93
+      },
+      {
+        "source": "windows",
+        "offset": 52397856,
+        "length": 401739
+      },
+      {
+        "source": "delta",
+        "offset": 13842275,
+        "length": 95
+      },
+      {
+        "source": "windows",
+        "offset": 52799699,
+        "length": 446744
+      },
+      {
+        "source": "delta",
+        "offset": 13842370,
+        "length": 74
+      },
+      {
+        "source": "windows",
+        "offset": 53246526,
+        "length": 193131
+      },
+      {
+        "source": "delta",
+        "offset": 13842444,
+        "length": 70
+      },
+      {
+        "source": "windows",
+        "offset": 53439736,
+        "length": 296373
+      },
+      {
+        "source": "delta",
+        "offset": 13842514,
+        "length": 68
+      },
+      {
+        "source": "windows",
+        "offset": 53736186,
+        "length": 154553
+      },
+      {
+        "source": "delta",
+        "offset": 13842582,
+        "length": 72
+      },
+      {
+        "source": "windows",
+        "offset": 54113305,
+        "length": 218912
+      },
+      {
+        "source": "delta",
+        "offset": 13842654,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 53890826,
+        "length": 222398
+      },
+      {
+        "source": "delta",
+        "offset": 13842732,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 54332305,
+        "length": 291038
+      },
+      {
+        "source": "delta",
+        "offset": 13842811,
+        "length": 90
+      },
+      {
+        "source": "windows",
+        "offset": 54623442,
+        "length": 549200
+      },
+      {
+        "source": "delta",
+        "offset": 13842901,
+        "length": 81
+      },
+      {
+        "source": "windows",
+        "offset": 55172732,
+        "length": 295645
+      },
+      {
+        "source": "delta",
+        "offset": 13842982,
+        "length": 85
+      },
+      {
+        "source": "windows",
+        "offset": 55468471,
+        "length": 315980
+      },
+      {
+        "source": "delta",
+        "offset": 13843067,
+        "length": 81
+      },
+      {
+        "source": "windows",
+        "offset": 55784541,
+        "length": 317732
+      },
+      {
+        "source": "delta",
+        "offset": 13843148,
+        "length": 92
+      },
+      {
+        "source": "windows",
+        "offset": 56102374,
+        "length": 184082
+      },
+      {
+        "source": "delta",
+        "offset": 13843240,
+        "length": 86
+      },
+      {
+        "source": "windows",
+        "offset": 56286551,
+        "length": 284468
+      },
+      {
+        "source": "delta",
+        "offset": 13843326,
+        "length": 84
+      },
+      {
+        "source": "windows",
+        "offset": 56571112,
+        "length": 333249
+      },
+      {
+        "source": "delta",
+        "offset": 13843410,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 56904449,
+        "length": 340990
+      },
+      {
+        "source": "delta",
+        "offset": 13843489,
+        "length": 94
+      },
+      {
+        "source": "windows",
+        "offset": 57245542,
+        "length": 294455
+      },
+      {
+        "source": "delta",
+        "offset": 13843583,
+        "length": 90
+      },
+      {
+        "source": "windows",
+        "offset": 57540096,
+        "length": 556176
+      },
+      {
+        "source": "delta",
+        "offset": 13843673,
+        "length": 90
+      },
+      {
+        "source": "windows",
+        "offset": 58096371,
+        "length": 630805
+      },
+      {
+        "source": "delta",
+        "offset": 13843763,
+        "length": 89
+      },
+      {
+        "source": "windows",
+        "offset": 58727274,
+        "length": 245443
+      },
+      {
+        "source": "delta",
+        "offset": 13843852,
+        "length": 86
+      },
+      {
+        "source": "windows",
+        "offset": 58972812,
+        "length": 334679
+      },
+      {
+        "source": "delta",
+        "offset": 13843938,
+        "length": 72
+      },
+      {
+        "source": "windows",
+        "offset": 59307572,
+        "length": 363367
+      },
+      {
+        "source": "delta",
+        "offset": 13844010,
+        "length": 69
+      },
+      {
+        "source": "windows",
+        "offset": 59671017,
+        "length": 520328
+      },
+      {
+        "source": "delta",
+        "offset": 13844079,
+        "length": 68
+      },
+      {
+        "source": "windows",
+        "offset": 60740623,
+        "length": 203895
+      },
+      {
+        "source": "delta",
+        "offset": 13844147,
+        "length": 75
+      },
+      {
+        "source": "windows",
+        "offset": 60191429,
+        "length": 218204
+      },
+      {
+        "source": "delta",
+        "offset": 13844222,
+        "length": 83
+      },
+      {
+        "source": "windows",
+        "offset": 60409725,
+        "length": 330821
+      },
+      {
+        "source": "delta",
+        "offset": 13844305,
+        "length": 67
+      },
+      {
+        "source": "windows",
+        "offset": 60944594,
+        "length": 162679
+      },
+      {
+        "source": "delta",
+        "offset": 13844372,
+        "length": 75
+      },
+      {
+        "source": "windows",
+        "offset": 61107357,
+        "length": 385890
+      },
+      {
+        "source": "delta",
+        "offset": 13844447,
+        "length": 85
+      },
+      {
+        "source": "windows",
+        "offset": 61493341,
+        "length": 338311
+      },
+      {
+        "source": "delta",
+        "offset": 13844532,
+        "length": 69
+      },
+      {
+        "source": "windows",
+        "offset": 61831730,
+        "length": 184395
+      },
+      {
+        "source": "delta",
+        "offset": 13844601,
+        "length": 70
+      },
+      {
+        "source": "windows",
+        "offset": 62016204,
+        "length": 461199
+      },
+      {
+        "source": "delta",
+        "offset": 13844671,
+        "length": 68
+      },
+      {
+        "source": "windows",
+        "offset": 62477480,
+        "length": 152580
+      },
+      {
+        "source": "delta",
+        "offset": 13844739,
+        "length": 69
+      },
+      {
+        "source": "windows",
+        "offset": 62630138,
+        "length": 354482
+      },
+      {
+        "source": "delta",
+        "offset": 13844808,
+        "length": 70
+      },
+      {
+        "source": "windows",
+        "offset": 62984699,
+        "length": 368177
+      },
+      {
+        "source": "delta",
+        "offset": 13844878,
+        "length": 67
+      },
+      {
+        "source": "windows",
+        "offset": 63352952,
+        "length": 360121
+      },
+      {
+        "source": "delta",
+        "offset": 13844945,
+        "length": 75
+      },
+      {
+        "source": "windows",
+        "offset": 63713157,
+        "length": 209595
+      },
+      {
+        "source": "delta",
+        "offset": 13845020,
+        "length": 68
+      },
+      {
+        "source": "windows",
+        "offset": 63922829,
+        "length": 301319
+      },
+      {
+        "source": "delta",
+        "offset": 13845088,
+        "length": 69
+      },
+      {
+        "source": "windows",
+        "offset": 64672830,
+        "length": 195878
+      },
+      {
+        "source": "delta",
+        "offset": 13845157,
+        "length": 76
+      },
+      {
+        "source": "windows",
+        "offset": 64224233,
+        "length": 359344
+      },
+      {
+        "source": "delta",
+        "offset": 13845233,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 64583668,
+        "length": 89084
+      },
+      {
+        "source": "delta",
+        "offset": 13845315,
+        "length": 70
+      },
+      {
+        "source": "windows",
+        "offset": 65237704,
+        "length": 356735
+      },
+      {
+        "source": "delta",
+        "offset": 13845385,
+        "length": 77
+      },
+      {
+        "source": "windows",
+        "offset": 64868794,
+        "length": 368831
+      },
+      {
+        "source": "delta",
+        "offset": 13845462,
+        "length": 89
+      },
+      {
+        "source": "windows",
+        "offset": 65594537,
+        "length": 282457
+      },
+      {
+        "source": "delta",
+        "offset": 13845551,
+        "length": 85
+      },
+      {
+        "source": "windows",
+        "offset": 65877088,
+        "length": 287012
+      },
+      {
+        "source": "delta",
+        "offset": 13845636,
+        "length": 87
+      },
+      {
+        "source": "windows",
+        "offset": 66164196,
+        "length": 376417
+      },
+      {
+        "source": "delta",
+        "offset": 13845723,
+        "length": 89
+      },
+      {
+        "source": "windows",
+        "offset": 66540711,
+        "length": 228251
+      },
+      {
+        "source": "delta",
+        "offset": 13845812,
+        "length": 89
+      },
+      {
+        "source": "windows",
+        "offset": 66769060,
+        "length": 293369
+      },
+      {
+        "source": "delta",
+        "offset": 13845901,
+        "length": 91
+      },
+      {
+        "source": "windows",
+        "offset": 67062529,
+        "length": 402253
+      },
+      {
+        "source": "delta",
+        "offset": 13845992,
+        "length": 69
+      },
+      {
+        "source": "windows",
+        "offset": 67464860,
+        "length": 339561
+      },
+      {
+        "source": "delta",
+        "offset": 13846061,
+        "length": 68
+      },
+      {
+        "source": "windows",
+        "offset": 68482455,
+        "length": 184968
+      },
+      {
+        "source": "delta",
+        "offset": 13846129,
+        "length": 75
+      },
+      {
+        "source": "windows",
+        "offset": 67804505,
+        "length": 224640
+      },
+      {
+        "source": "delta",
+        "offset": 13846204,
+        "length": 73
+      },
+      {
+        "source": "windows",
+        "offset": 68029227,
+        "length": 207681
+      },
+      {
+        "source": "delta",
+        "offset": 13846277,
+        "length": 73
+      },
+      {
+        "source": "windows",
+        "offset": 68236990,
+        "length": 245388
+      },
+      {
+        "source": "delta",
+        "offset": 13846350,
+        "length": 72
+      },
+      {
+        "source": "windows",
+        "offset": 68667504,
+        "length": 309083
+      },
+      {
+        "source": "delta",
+        "offset": 13846422,
+        "length": 84
+      },
+      {
+        "source": "windows",
+        "offset": 68976680,
+        "length": 331536
+      },
+      {
+        "source": "delta",
+        "offset": 13846506,
+        "length": 80
+      },
+      {
+        "source": "windows",
+        "offset": 69308305,
+        "length": 182959
+      },
+      {
+        "source": "delta",
+        "offset": 13846586,
+        "length": 80
+      },
+      {
+        "source": "windows",
+        "offset": 69491353,
+        "length": 228568
+      },
+      {
+        "source": "delta",
+        "offset": 13846666,
+        "length": 83
+      },
+      {
+        "source": "windows",
+        "offset": 69720013,
+        "length": 409355
+      },
+      {
+        "source": "delta",
+        "offset": 13846749,
+        "length": 68
+      },
+      {
+        "source": "windows",
+        "offset": 70129445,
+        "length": 162387
+      },
+      {
+        "source": "delta",
+        "offset": 13846817,
+        "length": 67
+      },
+      {
+        "source": "windows",
+        "offset": 70291908,
+        "length": 521947
+      },
+      {
+        "source": "delta",
+        "offset": 13846884,
+        "length": 72
+      },
+      {
+        "source": "windows",
+        "offset": 70813936,
+        "length": 77224
+      },
+      {
+        "source": "delta",
+        "offset": 13846956,
+        "length": 69
+      },
+      {
+        "source": "windows",
+        "offset": 71484175,
+        "length": 391281
+      },
+      {
+        "source": "delta",
+        "offset": 13847025,
+        "length": 76
+      },
+      {
+        "source": "windows",
+        "offset": 70891245,
+        "length": 320740
+      },
+      {
+        "source": "delta",
+        "offset": 13847101,
+        "length": 85
+      },
+      {
+        "source": "windows",
+        "offset": 71212079,
+        "length": 272018
+      },
+      {
+        "source": "delta",
+        "offset": 13847186,
+        "length": 82
+      },
+      {
+        "source": "windows",
+        "offset": 71875547,
+        "length": 1949
+      },
+      {
+        "source": "delta",
+        "offset": 13847268,
+        "length": 74
+      },
+      {
+        "source": "windows",
+        "offset": 71877579,
+        "length": 26820
+      },
+      {
+        "source": "delta",
+        "offset": 13847342,
+        "length": 73
+      },
+      {
+        "source": "windows",
+        "offset": 71904481,
+        "length": 1944
+      },
+      {
+        "source": "delta",
+        "offset": 13847415,
+        "length": 65
+      },
+      {
+        "source": "windows",
+        "offset": 71906499,
+        "length": 102208
+      },
+      {
+        "source": "delta",
+        "offset": 13847480,
+        "length": 76
+      },
+      {
+        "source": "windows",
+        "offset": 72008792,
+        "length": 1946
+      },
+      {
+        "source": "delta",
+        "offset": 13847556,
+        "length": 68
+      },
+      {
+        "source": "windows",
+        "offset": 72010815,
+        "length": 217062
+      },
+      {
+        "source": "delta",
+        "offset": 13847624,
+        "length": 75
+      },
+      {
+        "source": "windows",
+        "offset": 72227961,
+        "length": 1939
+      },
+      {
+        "source": "delta",
+        "offset": 13847699,
+        "length": 71
+      },
+      {
+        "source": "windows",
+        "offset": 72229980,
+        "length": 90815
+      },
+      {
+        "source": "delta",
+        "offset": 13847770,
+        "length": 81
+      },
+      {
+        "source": "windows",
+        "offset": 72919414,
+        "length": 618
+      },
+      {
+        "source": "delta",
+        "offset": 13847851,
+        "length": 73
+      },
+      {
+        "source": "windows",
+        "offset": 72321585,
+        "length": 6513
+      },
+      {
+        "source": "delta",
+        "offset": 13847924,
+        "length": 77
+      },
+      {
+        "source": "windows",
+        "offset": 72649497,
+        "length": 3949
+      },
+      {
+        "source": "delta",
+        "offset": 13848001,
+        "length": 69
+      },
+      {
+        "source": "windows",
+        "offset": 72332211,
+        "length": 40090
+      },
+      {
+        "source": "delta",
+        "offset": 13848070,
+        "length": 76
+      },
+      {
+        "source": "windows",
+        "offset": 72372386,
+        "length": 2001
+      },
+      {
+        "source": "delta",
+        "offset": 13848146,
+        "length": 68
+      },
+      {
+        "source": "windows",
+        "offset": 72374464,
+        "length": 123215
+      },
+      {
+        "source": "delta",
+        "offset": 13848214,
+        "length": 68
+      },
+      {
+        "source": "windows",
+        "offset": 72497756,
+        "length": 1941
+      },
+      {
+        "source": "delta",
+        "offset": 13848282,
+        "length": 64
+      },
+      {
+        "source": "windows",
+        "offset": 72499770,
+        "length": 127665
+      },
+      {
+        "source": "delta",
+        "offset": 13848346,
+        "length": 74
+      },
+      {
+        "source": "windows",
+        "offset": 72627518,
+        "length": 1954
+      },
+      {
+        "source": "delta",
+        "offset": 13848420,
+        "length": 66
+      },
+      {
+        "source": "windows",
+        "offset": 72629547,
+        "length": 19860
+      },
+      {
+        "source": "delta",
+        "offset": 13848486,
+        "length": 81
+      },
+      {
+        "source": "windows",
+        "offset": 72649497,
+        "length": 3949
+      },
+      {
+        "source": "delta",
+        "offset": 13848567,
+        "length": 73
+      },
+      {
+        "source": "windows",
+        "offset": 72653528,
+        "length": 41520
+      },
+      {
+        "source": "delta",
+        "offset": 13848640,
+        "length": 78
+      },
+      {
+        "source": "windows",
+        "offset": 72695135,
+        "length": 1950
+      },
+      {
+        "source": "delta",
+        "offset": 13848718,
+        "length": 70
+      },
+      {
+        "source": "windows",
+        "offset": 72697164,
+        "length": 40120
+      },
+      {
+        "source": "delta",
+        "offset": 13848788,
+        "length": 69
+      },
+      {
+        "source": "windows",
+        "offset": 72737362,
+        "length": 1942
+      },
+      {
+        "source": "delta",
+        "offset": 13848857,
+        "length": 61
+      },
+      {
+        "source": "windows",
+        "offset": 72739374,
+        "length": 66267
+      },
+      {
+        "source": "delta",
+        "offset": 13848918,
+        "length": 74
+      },
+      {
+        "source": "windows",
+        "offset": 72805724,
+        "length": 2001
+      },
+      {
+        "source": "delta",
+        "offset": 13848992,
+        "length": 70
+      },
+      {
+        "source": "windows",
+        "offset": 72807804,
+        "length": 63879
+      },
+      {
+        "source": "delta",
+        "offset": 13849062,
+        "length": 84
+      },
+      {
+        "source": "windows",
+        "offset": 72871776,
+        "length": 1999
+      },
+      {
+        "source": "delta",
+        "offset": 13849146,
+        "length": 76
+      },
+      {
+        "source": "windows",
+        "offset": 72873860,
+        "length": 45468
+      },
+      {
+        "source": "delta",
+        "offset": 13849222,
+        "length": 77
+      },
+      {
+        "source": "windows",
+        "offset": 72919414,
+        "length": 618
+      },
+      {
+        "source": "delta",
+        "offset": 13849299,
+        "length": 69
+      },
+      {
+        "source": "windows",
+        "offset": 72920110,
+        "length": 17105
+      },
+      {
+        "source": "delta",
+        "offset": 13849368,
+        "length": 71
+      },
+      {
+        "source": "windows",
+        "offset": 72937295,
+        "length": 1936
+      },
+      {
+        "source": "delta",
+        "offset": 13849439,
+        "length": 63
+      },
+      {
+        "source": "windows",
+        "offset": 72939303,
+        "length": 43754
+      },
+      {
+        "source": "delta",
+        "offset": 13849502,
+        "length": 79
+      },
+      {
+        "source": "windows",
+        "offset": 72983145,
+        "length": 629
+      },
+      {
+        "source": "delta",
+        "offset": 13849581,
+        "length": 93
+      },
+      {
+        "source": "windows",
+        "offset": 72983876,
+        "length": 2470784
+      },
+      {
+        "source": "delta",
+        "offset": 13849674,
+        "length": 83
+      },
+      {
+        "source": "windows",
+        "offset": 75454752,
+        "length": 1789053
+      },
+      {
+        "source": "delta",
+        "offset": 13849757,
+        "length": 85
+      },
+      {
+        "source": "windows",
+        "offset": 77243899,
+        "length": 2360484
+      },
+      {
+        "source": "delta",
+        "offset": 13849842,
+        "length": 68
+      },
+      {
+        "source": "windows",
+        "offset": 79604460,
+        "length": 25145
+      },
+      {
+        "source": "delta",
+        "offset": 13849910,
+        "length": 69
+      },
+      {
+        "source": "windows",
+        "offset": 79629683,
+        "length": 24468
+      },
+      {
+        "source": "delta",
+        "offset": 13849979,
+        "length": 66
+      },
+      {
+        "source": "windows",
+        "offset": 79654226,
+        "length": 10171
+      },
+      {
+        "source": "delta",
+        "offset": 13850045,
+        "length": 67
+      },
+      {
+        "source": "windows",
+        "offset": 79664473,
+        "length": 103285
+      },
+      {
+        "source": "delta",
+        "offset": 13850112,
+        "length": 74
+      },
+      {
+        "source": "windows",
+        "offset": 79767841,
+        "length": 76065
+      },
+      {
+        "source": "delta",
+        "offset": 13850186,
+        "length": 91
+      },
+      {
+        "source": "delta",
+        "offset": 13850277,
+        "length": 993
+      },
+      {
+        "source": "delta",
+        "offset": 13851270,
+        "length": 96
+      },
+      {
+        "source": "windows",
+        "offset": 79982031,
+        "length": 4604
+      },
+      {
+        "source": "delta",
+        "offset": 13851366,
+        "length": 88
+      },
+      {
+        "source": "windows",
+        "offset": 79986732,
+        "length": 2832
+      },
+      {
+        "source": "delta",
+        "offset": 13851454,
+        "length": 65
+      },
+      {
+        "source": "delta",
+        "offset": 13851519,
+        "length": 27292
+      },
+      {
+        "source": "delta",
+        "offset": 13878811,
+        "length": 73
+      },
+      {
+        "source": "delta",
+        "offset": 13878884,
+        "length": 179785
+      },
+      {
+        "source": "delta",
+        "offset": 14058669,
+        "length": 67
+      },
+      {
+        "source": "delta",
+        "offset": 14058736,
+        "length": 2062548
+      },
+      {
+        "source": "delta",
+        "offset": 16121284,
+        "length": 69
+      },
+      {
+        "source": "delta",
+        "offset": 16121353,
+        "length": 24698
+      },
+      {
+        "source": "delta",
+        "offset": 16146051,
+        "length": 77
+      },
+      {
+        "source": "delta",
+        "offset": 16146128,
+        "length": 141581
+      },
+      {
+        "source": "delta",
+        "offset": 16287709,
+        "length": 71
+      },
+      {
+        "source": "delta",
+        "offset": 16287780,
+        "length": 1404174
+      },
+      {
+        "source": "delta",
+        "offset": 17691954,
+        "length": 32707
+      }
+    ],
+    "voxlink-windows-setup.exe": [
+      {
+        "source": "delta",
+        "offset": 17724661,
+        "length": 1916
+      },
+      {
+        "source": "windows",
+        "offset": 0,
+        "length": 80032586
+      },
+      {
+        "source": "delta",
+        "offset": 17726577,
+        "length": 777530
+      }
+    ]
+  }
+}
