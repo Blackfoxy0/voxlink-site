@@ -1,17 +1,18 @@
-# VoxLink 0.9.0 — beta: nova sala e aplicativo mais leve
+# VoxLink 1.0.0 — Windows e Web
 
-Android ARM64, Windows 64 bits e Web. Fonte 0.9.0+30; Android código 2030.
+Atualização beta 1.0.0, build 32, para Windows 64 bits e navegador.
 
-- Novo layout responsivo da sala de voz: chat lateral no computador e alternância entre sala e mensagens no celular, preservando o texto digitado e o estado dos controles.
-- Controles com nomes visíveis para tela, câmera, microfone, fone e saída. Cores e detalhes acompanham o tema escolhido.
-- 103 imagens convertidas para WebP de qualidade 85, preservando dimensões e transparência. As imagens ocupam 83,37% menos espaço; APK ARM64 de 76,6 MB, contra 231,5 MB do candidato anterior.
-- Busca de faixas no YouTube Music e reprodução de áudio na sala pelo serviço online. Foram verificados busca, início de áudio, pausa, retomada e parada em teste isolado. O serviço ainda depende do computador do operador ligado e da disponibilidade da fonte externa.
-- Inclui as correções acumuladas de perfil, posicionamento de foto/moldura/adornos, senha, recarga de mídia e limites de envio, além dos temas e artes já integrados.
+- Interface revisada: painéis com vidro opcional, bordas e foco de teclado consistentes, menus e configurações mais compactos e filtros horizontais com indicação de continuação.
+- Música em uma ilha expansível. No Windows, a opção “Flutuar sobre outros apps” abre uma janela independente com os mesmos controles de reprodução. A chamada mantém acesso direto à busca; a ilha abre a fila. A versão interna é ocultada enquanto a flutuante está ativa.
+- Importação de GIFs e figurinhas, biblioteca pessoal e edição que preserva os originais e permite salvar uma cópia, em Configurações → Conversas.
+- Melhorias na troca de abas, preservando rascunhos e seleção, com suspensão de consultas de conversas inativas. Introdução preparada pausada e iniciada explicitamente no primeiro quadro.
+- Personalização, carteira, catálogos e ferramentas de acessibilidade recebem as correções acumuladas desta revisão.
 
-Esta é uma beta com parte do novo design. A reconstrução completa de início, comunidades, perfil, personalização e acessibilidade continua em desenvolvimento. As novas pranchas não representam funcionalidades já prontas. Pets não foi adicionado. Nem todas as artes, fontes e banners recebidos estão integrados.
+Verificação: 592 testes gerais aprovados, 14 ignorados; depois do ajuste final de acesso à fila, 33 regressões de música aprovadas, incluindo um caso novo. Análise de código limpa, Windows/Web compilados e 25 capturas locais inspecionadas. Essas provas não são um teste de reprodução audível, de jogos em tela cheia exclusiva ou de todos os recursos com contas reais. Música online e tradução permanecem em beta; itens marcados “Em breve” e prévias de coleções continuam assim.
 
-Verificação: 359 testes Flutter passaram, 10 capturas opcionais omitidas e análise limpa; 43 testes TypeScript e 18 testes Python de música passaram. Windows, Android e Web compilados; 138 arquivos de recursos conferidos nas três plataformas, sem PNGs antigos duplicados. Assinatura e identidade Android preservadas. Não houve teste físico no celular nem instalação local desta versão nesta rodada.
+Android permanece na versão 0.9.0. O APK 1.0.0 não é incluído nesta publicação porque a chave disponível não corresponde à assinatura anterior. Não é necessário desinstalar o aplicativo nem apagar dados. O download Android no site continua apontando para o APK anterior compatível.
 
-Para atualizar, use o instalador Windows ou o APK Android. Não é necessário remover a versão anterior ou apagar dados. Android pede a confirmação de instalação. O aplicativo Windows ainda não possui assinatura digital de editor. Versões anteriores permanecem disponíveis no histórico do GitHub; no Android, retornar ao comportamento anterior exige um pacote com código maior, sem apagar os dados.
+Windows: use o instalador para atualizar, mantendo as preferências. O aplicativo ainda não tem assinatura digital de editor. A ilha flutuante é uma função do Windows, disponível enquanto o aplicativo está em execução; não é um overlay Android.
 
-Downloads e checksums abaixo. Site: https://blackfoxy0.github.io/voxlink-site/
+Web: https://blackfoxy0.github.io/voxlink-site/app/
+Site e downloads: https://blackfoxy0.github.io/voxlink-site/

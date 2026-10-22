@@ -1,1 +1,21 @@
-{"version": "0.9.0", "notes": "Beta 0.9.0: novo layout da sala e chat, controles identificados, música por faixas e imagens WebP. O restante do novo design continua em desenvolvimento; Pets não incluído."}
+{
+  "version": "0.9.0",
+  "latestVersion": "1.0.0",
+  "notes": "Windows e Web 1.0.0 disponíveis no site. Android permanece em 0.9.0 enquanto a atualização compatível é preparada.",
+  "platforms": {
+    "windows": {
+      "version": "1.0.0",
+      "download": "https://github.com/Blackfoxy0/voxlink-site/releases/download/v1.0.0/voxlink-windows-setup.exe"
+    },
+    "web": {
+      "version": "1.0.0",
+      "url": "https://blackfoxy0.github.io/voxlink-site/app/"
+    },
+    "android": {
+      "version": "0.9.0",
+      "download": "https://github.com/Blackfoxy0/voxlink-site/releases/download/v0.9.0/voxlink-android-arm64.apk"
+    }
+  },
+  "legacyFeedReason": "Older clients do not send their platform. Keep the legacy version at 0.9.0 to avoid offering Android an unavailable 1.0.0 APK."
+}
+
